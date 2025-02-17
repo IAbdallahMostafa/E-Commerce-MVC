@@ -1,3 +1,6 @@
+using E_Commerce.DataAccess.Data;
+using Microsoft.EntityFrameworkCore;
+
 namespace E_Commerce.Web
 {
     public class Program
@@ -8,7 +11,13 @@ namespace E_Commerce.Web
 
             // Add services to the container.
             builder.Services.AddControllersWithViews();
+            
+            // Runtime compile    
+            builder.Services.AddRazorPages().AddRazorRuntimeCompilation();
 
+            // Register DBContex
+            builder.Services.AddDbContext<AppDBContext>(options => 
+                             options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
