@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.11.35208.52
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.DataAccess", "E-Commerce.DataAccess\E-Commerce.DataAccess.csproj", "{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.DataAccess", "E-Commerce.DataAccess\E-Commerce.DataAccess.csproj", "{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Entites", "E-Commerce.Entites\E-Commerce.Entites.csproj", "{7771FEB5-480D-468A-91DB-46F1BEC1A9F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Entites", "E-Commerce.Entites\E-Commerce.Entites.csproj", "{7771FEB5-480D-468A-91DB-46F1BEC1A9F6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "E-Commerce.Web", "E-Commerce.Web\E-Commerce.Web.csproj", "{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "E-Commerce.Web", "E-Commerce.Web\E-Commerce.Web.csproj", "{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

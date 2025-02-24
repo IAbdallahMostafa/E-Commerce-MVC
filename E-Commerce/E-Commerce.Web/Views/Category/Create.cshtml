@@ -1,5 +1,8 @@
 ﻿@model Category
-<h1>Add New Category</h1>
+@{
+    ViewBag.PageTitle = "Category Management";
+    ViewBag.CardTitle = "Add";
+}
 
 <form asp-action="Create" method="post">
     <div class="mb-3">
@@ -14,7 +17,7 @@
     </div>
     <div class="mb-3">
         <input type="submit" value="Add New" class="btn btn-primary" />
-        <a asp-action="Index" class="btn btn-warning">Back To List</a>
+        <a asp-action="Index" class="btn btn-secondary">Back To List</a>
     </div>
 </form>
 
