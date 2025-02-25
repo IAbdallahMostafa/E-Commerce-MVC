@@ -7,16 +7,8 @@
       "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\controllers\\categorycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\views\\category\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\views\\shared\\_toastrpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\views\\shared\\_toastrpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\views\\shared\\_dashboardlayout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.dataaccess\\repositries\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|solutionrelative:e-commerce.dataaccess\\repositries\\genericrepositry.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +18,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,41 +26,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "_ToastrPartialView.cshtml",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
-              "RelativeToolTip": "E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T16:59:37.352Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "_DashboardLayout.cshtml",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Shared\\_DashboardLayout.cshtml",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Views\\Shared\\_DashboardLayout.cshtml",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Shared\\_DashboardLayout.cshtml",
-              "RelativeToolTip": "E-Commerce.Web\\Views\\Shared\\_DashboardLayout.cshtml",
-              "ViewState": "AgIAABYBAAAAAAAAAAAAAB0BAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T16:59:32.603Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Category\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Views\\Category\\Index.cshtml",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Category\\Index.cshtml",
-              "RelativeToolTip": "E-Commerce.Web\\Views\\Category\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAALAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-02-24T15:48:22.199Z",
+              "Title": "GenericRepositry.cs",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Repositries\\GenericRepositry.cs",
+              "RelativeDocumentMoniker": "E-Commerce.DataAccess\\Repositries\\GenericRepositry.cs",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Repositries\\GenericRepositry.cs",
+              "RelativeToolTip": "E-Commerce.DataAccess\\Repositries\\GenericRepositry.cs",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADwAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T19:07:22.958Z",
               "EditorCaption": ""
             },
             {
@@ -79,9 +45,9 @@
               "RelativeDocumentMoniker": "E-Commerce.Web\\Controllers\\CategoryController.cs",
               "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Controllers\\CategoryController.cs",
               "RelativeToolTip": "E-Commerce.Web\\Controllers\\CategoryController.cs",
-              "ViewState": "AgIAAEMAAAAAAAAAAAA1wFsAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAADEAAAAAAAAAAAAAADUAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-24T11:37:48.419Z",
+              "WhenOpened": "2025-02-25T10:01:09.449Z",
               "EditorCaption": ""
             }
           ]

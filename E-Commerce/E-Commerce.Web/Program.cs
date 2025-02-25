@@ -1,4 +1,7 @@
 using E_Commerce.DataAccess.Data;
+using E_Commerce.DataAccess.Repositries;
+using E_Commerce.Entites.Interfaces;
+using E_Commerce.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Web
@@ -18,6 +21,10 @@ namespace E_Commerce.Web
             // Register DBContex
             builder.Services.AddDbContext<AppDBContext>(options => 
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
+            
+            // Register Repositries
+            builder.Services.AddTransient(typeof(IGenericRepositry<>), typeof(GenericRepositry<>));
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

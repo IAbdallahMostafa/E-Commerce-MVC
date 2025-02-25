@@ -1,4 +1,5 @@
 ﻿using E_Commerce.DataAccess.Data;
+using E_Commerce.Entites.Interfaces;
 using E_Commerce.Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 
@@ -6,15 +7,15 @@ namespace E_Commerce.Web.Controllers
 {
     public class CategoryController : Controller
     {
-        private readonly AppDBContext _context;
-        public CategoryController(AppDBContext context)
+        private readonly IGenericRepositry<Category> _repositry;
+        public CategoryController(IGenericRepositry<Category > repositry)
         {
-            _context = context;
+            _repositry = repositry;
         }
 
         public IActionResult Index()
         {
-            var categories = _context.Categories.ToList();
+            var categories = _repositry.GetAll();
             return View(categories); 
         }
 
@@ -30,8 +31,7 @@ namespace E_Commerce.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _context.Categories.Add(category);
-                _context.SaveChanges();
+                _repositry.Add(category);
                 TempData["Create"] = "Category Added Successfully";
                 return RedirectToAction("Index");
             }
@@ -41,7 +41,7 @@ namespace E_Commerce.Web.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            var category = _context.Categories.Find(id);
+            var category = _repositry.GetOne(e => e.Id == id);
             if (category == null)
                 return NotFound("This Category Is Not Found!");
 
@@ -54,10 +54,7 @@ namespace E_Commerce.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                Category categoryInDb = _context.Categories.Find(category.Id)!; 
-                categoryInDb.Name = category.Name;
-                categoryInDb.Description = category.Description;
-                _context.SaveChanges();
+                _repositry.Update(category);
                 TempData["Edit"] = "Category Updated Successfully";
                 return RedirectToAction("Index");
             }
@@ -67,7 +64,7 @@ namespace E_Commerce.Web.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var category = _context.Categories.Find(id);
+            var category = _repositry.GetOne(e => e.Id == id);
             if (category == null)
                 return NotFound("This Category Is Not Found!");
             return View(category);
@@ -75,17 +72,12 @@ namespace E_Commerce.Web.Controllers
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        public IActionResult DeleteCategory(int id)
+        public IActionResult DeleteCategory(Category category)
         {
-            var category = _context.Categories.Find(id);
-            if (category != null)
-            {
-                _context.Categories.Remove(category);
-                _context.SaveChanges();
+                _repositry.Delete(category);
                 TempData["Delete"] = "Category Deleted Successfully";
                 return RedirectToAction("Index");
-            } 
-            return NotFound("Category Not Found!");
+            
         }
     }
 }
