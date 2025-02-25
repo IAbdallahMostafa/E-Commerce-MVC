@@ -20,39 +20,35 @@ namespace E_Commerce.DataAccess.Repositries
             _context = context;
             _dbSet = context.Set<T>();
         }
-        public void Add(T item)
-        {
-            _dbSet.Add(item);
-            _context.SaveChanges();
-        }
 
-
-        public void Delete(T item)
-        {
-            _dbSet.Remove(item);
-            _context.SaveChanges();
-
-        }
-
-        public void DeleteRange(IEnumerable<T> items)
-        {
-            _dbSet.RemoveRange(items);
-            _context.SaveChanges();
-
-        }
 
         public IEnumerable<T> GetAll(Expression<Func<T, bool>>? filter = null, string[]? includeWord = null)
         {
-            IQueryable<T> query = _dbSet;
+           IQueryable<T> query = _dbSet;
 
-            if (filter !=  null)
+            if (filter != null)
                 query = query.Where(filter);
 
             if (includeWord != null)
                 foreach (var word in includeWord)
                     query = query.Include(word);
-            
+
             return query.ToList();
+        }
+
+        public async Task<IEnumerable<T>> GetAllAsync(Expression<Func<T, bool>>? filter = null, string[]? includeWord = null)
+        {
+
+            IQueryable<T> query = _dbSet;
+
+            if (filter != null)
+                query = query.Where(filter);
+
+            if (includeWord != null)
+                foreach (var word in includeWord)
+                    query = query.Include(word);
+
+            return await query.ToListAsync();
         }
 
         public T GetOne(Expression<Func<T, bool>>? filter = null, string[]? includeWords = null)
@@ -60,11 +56,33 @@ namespace E_Commerce.DataAccess.Repositries
             return GetAll(filter, includeWords).FirstOrDefault();
         }
 
+        public async Task<T> GetOneAsync(Expression<Func<T, bool>>? filter = null, string[]? includeWords = null)
+        {
+            return (await GetAllAsync(filter, includeWords)).FirstOrDefault();
+        }
+
+        public void Add(T item)
+        {
+            _dbSet.Add(item);
+        }
+
+        public async Task AddAsync(T item)
+        {
+            await _dbSet.AddAsync(item);
+        }
         public void Update(T item)
         {
             _dbSet.Update(item);
-            _context.SaveChanges();
+        }
 
+        public void Delete(T item)
+        {
+            _dbSet.Remove(item);
+        }
+
+        public void DeleteRange(IEnumerable<T> items)
+        {
+            _dbSet.RemoveRange(items);
         }
     }
 }
