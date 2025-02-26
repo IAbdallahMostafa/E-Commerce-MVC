@@ -1,0 +1,12 @@
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\bin\Debug\net8.0\E-Commerce.Entities.deps.json
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\bin\Debug\net8.0\E-Commerce.Entities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\bin\Debug\net8.0\E-Commerce.Entities.pdb
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.AssemblyInfoInputs.cache
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.AssemblyInfo.cs
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.csproj.CoreCompileInputs.cache
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.sourcelink.json
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\refint\E-Commerce.Entities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.pdb
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\ref\E-Commerce.Entities.dll

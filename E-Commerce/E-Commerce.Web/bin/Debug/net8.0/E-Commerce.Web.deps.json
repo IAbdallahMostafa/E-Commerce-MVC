@@ -2738,13 +2738,13 @@
       },
       "E-Commerce.DataAccess/1.0.0": {
         "dependencies": {
-          "E-Commerce.Entites": "1.0.0",
+          "E-Commerce.Entities": "1.0.0",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "Microsoft.Extensions.Configuration.Json": "9.0.2"
         },
         "runtime": {
           "E-Commerce.DataAccess.dll": {
-            "assemblyVersion": "1.0.0",
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
@@ -2752,15 +2752,15 @@
           "E-Commerce.DataAccess.dll": {}
         }
       },
-      "E-Commerce.Entites/1.0.0": {
+      "E-Commerce.Entities/1.0.0": {
         "runtime": {
-          "E-Commerce.Entites.dll": {
-            "assemblyVersion": "1.0.0",
+          "E-Commerce.Entities.dll": {
+            "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
         "compile": {
-          "E-Commerce.Entites.dll": {}
+          "E-Commerce.Entities.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery/8.0.0.0": {
@@ -5638,7 +5638,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "E-Commerce.Entites/1.0.0": {
+    "E-Commerce.Entities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

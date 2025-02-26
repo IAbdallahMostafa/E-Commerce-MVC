@@ -1731,14 +1731,14 @@
           }
         }
       },
-      "E-Commerce.Entites/1.0.0": {
+      "E-Commerce.Entities/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "compile": {
-          "bin/placeholder/E-Commerce.Entites.dll": {}
+          "bin/placeholder/E-Commerce.Entities.dll": {}
         },
         "runtime": {
-          "bin/placeholder/E-Commerce.Entites.dll": {}
+          "bin/placeholder/E-Commerce.Entities.dll": {}
         }
       }
     }
@@ -5027,22 +5027,23 @@
         "useSharedDesignerContext.txt"
       ]
     },
-    "E-Commerce.Entites/1.0.0": {
+    "E-Commerce.Entities/1.0.0": {
       "type": "project",
-      "path": "../E-Commerce.Entites/E-Commerce.Entites.csproj",
-      "msbuildProject": "../E-Commerce.Entites/E-Commerce.Entites.csproj"
+      "path": "../E-Commerce.Entites/E-Commerce.Entities.csproj",
+      "msbuildProject": "../E-Commerce.Entites/E-Commerce.Entities.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "E-Commerce.Entites >= 1.0.0",
+      "E-Commerce.Entities >= 1.0.0",
       "Microsoft.EntityFrameworkCore.SqlServer >= 9.0.2",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2",
       "Microsoft.Extensions.Configuration.Json >= 9.0.2"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\User\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
@@ -5053,8 +5054,12 @@
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
         "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -5062,15 +5067,14 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entites.csproj": {
-              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entites.csproj"
+            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj": {
+              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj"
             }
           }
         }
@@ -5084,7 +5088,8 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      }
+      },
+      "SdkAnalysisLevel": "9.0.200"
     },
     "frameworks": {
       "net8.0": {
@@ -5121,7 +5126,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.400/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

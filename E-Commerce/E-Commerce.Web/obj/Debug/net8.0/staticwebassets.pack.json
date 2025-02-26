@@ -2,7 +2,7 @@
   "Files": [
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\E-Commerce.Web.bundle.scp.css",
-      "PackagePath": "staticwebassets\\E-Commerce.Web.bundle.scp.css"
+      "PackagePath": "staticwebassets\\E-Commerce.Web.7ewrtpdt4p.bundle.scp.css"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\adminlte.css",
@@ -703,6 +703,10 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\plugins\\jquery\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce.Web.Microsoft.AspNetCore.StaticWebAssets.props",

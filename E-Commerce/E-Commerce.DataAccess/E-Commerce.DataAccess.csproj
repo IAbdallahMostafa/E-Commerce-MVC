@@ -17,7 +17,7 @@
   </ItemGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\E-Commerce.Entites\E-Commerce.Entites.csproj" />
+    <ProjectReference Include="..\E-Commerce.Entites\E-Commerce.Entities.csproj" />
   </ItemGroup>
 
 </Project>

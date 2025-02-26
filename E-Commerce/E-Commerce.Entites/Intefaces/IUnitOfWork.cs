@@ -4,8 +4,8 @@ namespace E_Commerce.Entites.Intefaces
 {
     public interface IUnitOfWork : IDisposable
     {
-        ICategoryRepositry Category {  get; }
-
+        ICategoryRepositry Categories {  get; }
+        IProductRepositry Products { get; }
         int Complete();
 
         Task<int> CompleteAsync(); 

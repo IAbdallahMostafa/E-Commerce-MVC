@@ -3,8 +3,9 @@ using E_Commerce.Entites.Interfaces;
 using E_Commerce.Entities.Models;
 using Microsoft.AspNetCore.Mvc;
 
-namespace E_Commerce.Web.Controllers
+namespace E_Commerce.Web.Areas.Admin.Controllers
 {
+    [Area("Admin")]
     public class CategoryController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
@@ -15,7 +16,7 @@ namespace E_Commerce.Web.Controllers
 
         public IActionResult Index()
         {
-            var categories = _unitOfWork.Category.GetAll();
+            var categories = _unitOfWork.Categories.GetAll();
             return View(categories); 
         }
 
@@ -31,7 +32,7 @@ namespace E_Commerce.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.Category.Add(category);
+                _unitOfWork.Categories.Add(category);
                 _unitOfWork.Complete();
                 TempData["Create"] = "Category Added Successfully";
                 return RedirectToAction("Index");
@@ -42,7 +43,7 @@ namespace E_Commerce.Web.Controllers
         [HttpGet]
         public IActionResult Edit(int? id)
         {
-            var category = _unitOfWork.Category.GetOne(e => e.Id == id);
+            var category = _unitOfWork.Categories.GetOne(e => e.Id == id);
             if (category == null)
                 return NotFound("This Category Is Not Found!");
 
@@ -55,7 +56,7 @@ namespace E_Commerce.Web.Controllers
         {
             if (ModelState.IsValid)
             {
-                _unitOfWork.Category.Update(category);
+                _unitOfWork.Categories.Update(category);
                 _unitOfWork.Complete();
                 TempData["Edit"] = "Category Updated Successfully";
                 return RedirectToAction("Index");
@@ -66,7 +67,7 @@ namespace E_Commerce.Web.Controllers
         [HttpGet]
         public IActionResult Delete(int id)
         {
-            var category = _unitOfWork.Category.GetOne(e => e.Id == id);
+            var category = _unitOfWork.Categories.GetOne(e => e.Id == id);
             if (category == null)
                 return NotFound("This Category Is Not Found!");
             return View(category);
@@ -76,7 +77,7 @@ namespace E_Commerce.Web.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult DeleteCategory(Category category)
         {
-             _unitOfWork.Category.Delete(category);
+             _unitOfWork.Categories.Delete(category);
             _unitOfWork.Complete();
              TempData["Delete"] = "Category Deleted Successfully";
              return RedirectToAction("Index");

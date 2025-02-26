@@ -455,9 +455,7 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.AspNe
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.Razor.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.MvcApplicationPartsAssemblyInfo.cs
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.DataAccess.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entites.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.DataAccess.pdb
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entites.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.Build.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.Build.Framework.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.CodeAnalysis.AnalyzerUtilities.dll
@@ -577,3 +575,9 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\li
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Web.staticwebassets.endpoints.json
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\staticwebassets.build.endpoints.json
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\staticwebassets\msbuild.E-Commerce.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\staticwebassets.upToDateCheck.txt
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entities.pdb

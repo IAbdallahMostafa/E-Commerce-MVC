@@ -1,4 +1,5 @@
-﻿using E_Commerce.Entities.Models;
+﻿
+using E_Commerce.Entities.Models;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.DataAccess.Data
@@ -8,7 +9,7 @@ namespace E_Commerce.DataAccess.Data
         public AppDBContext(DbContextOptions<AppDBContext> options) : base(options) { }
 
         public DbSet<Category> Categories { get; set; }
-
+        public DbSet<Product> Products { get; set; }
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
             base.OnModelCreating(modelBuilder);
