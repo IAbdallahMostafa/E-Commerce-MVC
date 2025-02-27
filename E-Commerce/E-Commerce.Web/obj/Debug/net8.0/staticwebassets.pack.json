@@ -5,6 +5,18 @@
       "PackagePath": "staticwebassets\\E-Commerce.Web.7ewrtpdt4p.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\13b7bac9-c901-430c-b951-583e46bae1e9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\13b7bac9-c901-430c-b951-583e46bae1e9.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\990fe7a8-f561-4dc8-83b7-d78db51eeb8c.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\990fe7a8-f561-4dc8-83b7-d78db51eeb8c.jpg"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\css\\adminlte.css"
     },

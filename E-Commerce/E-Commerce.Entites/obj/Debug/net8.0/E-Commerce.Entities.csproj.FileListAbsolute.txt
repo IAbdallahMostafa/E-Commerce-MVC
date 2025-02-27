@@ -10,3 +10,4 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\refint\E-Commerce.Entities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\ref\E-Commerce.Entities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Entites\obj\Debug\net8.0\E-Commerce.Entities.csproj.AssemblyReference.cache

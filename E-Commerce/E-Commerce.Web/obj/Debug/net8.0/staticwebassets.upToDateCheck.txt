@@ -29,6 +29,9 @@ wwwroot\css\alt\adminlte.plugins.min.css.map
 wwwroot\css\site.css
 wwwroot\css\toastr.min.css
 wwwroot\favicon.ico
+wwwroot\Images\Product\13b7bac9-c901-430c-b951-583e46bae1e9.jpg
+wwwroot\Images\Product\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg
+wwwroot\Images\Product\990fe7a8-f561-4dc8-83b7-d78db51eeb8c.jpg
 wwwroot\img\AdminLTELogo.png
 wwwroot\img\avatar.png
 wwwroot\img\avatar2.png
