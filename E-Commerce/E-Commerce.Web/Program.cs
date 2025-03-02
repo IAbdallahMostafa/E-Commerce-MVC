@@ -3,6 +3,7 @@ using E_Commerce.DataAccess.Repositries;
 using E_Commerce.Entites.Intefaces;
 using E_Commerce.Entites.Interfaces;
 using E_Commerce.Entities.Models;
+using E_Commerce.Web.Settings.Mapper;
 using Microsoft.EntityFrameworkCore;
 
 namespace E_Commerce.Web
@@ -25,7 +26,11 @@ namespace E_Commerce.Web
             
             // Register UnitOfWork
             builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
-            
+
+            // Register Mapper
+            builder.Services.AddAutoMapper(typeof(MappingProfile));
+
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.

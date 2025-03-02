@@ -1,4 +1,5 @@
-﻿@model AddProductViewModel
+﻿@using E_Commerce.Web.Settings
+@model AddProductViewModel
 @{
     ViewBag.PageTitle = "Product Management";
     ViewBag.CardTitle = "Add";
@@ -7,44 +8,58 @@
 }
 
 <form asp-action="Create" method="post" enctype="multipart/form-data">
-    <div class="mb-3">
-        <label asp-for="Name"></label>
-        <input asp-for="Name" class="form-control" />
-        <span asp-validation-for="Name" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Description"></label>
-        <input asp-for="Description" class="form-control" />
-        <span asp-validation-for="Description" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Price"></label>
-        <input asp-for="Price" class="form-control" />
-        <span asp-validation-for="Price" class="text-danger"></span>
-    </div>
-    <div class="mb-3">
-        <label asp-for="Image"></label>
-        <input type = "file" asp-for="Image" class="form-control" />
-        <span asp-validation-for="Image" class="text-danger"></span>
+    <div class="row">
+        <div class="col-md-6">
+            <div class="mb-3">
+                <label asp-for="Name"></label>
+                <input asp-for="Name" class="form-control" />
+                <span asp-validation-for="Name" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Description"></label>
+                <input asp-for="Description" class="form-control" />
+                <span asp-validation-for="Description" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Price"></label>
+                <input asp-for="Price" class="form-control" />
+                <span asp-validation-for="Price" class="text-danger"></span>
+            </div>
+            <div class="mb-3">
+                <label asp-for="Image"></label>
+                <input type="file" asp-for="Image" class="form-control" data-rule-extension="@ConstantsFile.AllowedExtensions.Replace(".", string.Empty)"
+                       data-msg-extension="Not Allowed Extension"
+                       data-rule-fileSizeValidation="@ConstantsFile.MaxFileSizeInBytes"
+                       data-msg-fileSizeValidation="Maximum Size Allowed Is @ConstantsFile.MaxFileSizeInMB MB">
+                <small class="form-text text-muted">Only @ConstantsFile.AllowedExtensions files are allowed with max size 1MB.</small>
+                <span asp-validation-for="Image" class="text-danger d-block"></span>
 
+            </div>
+
+            <div class="mb-3">
+                <label asp-for="CategoryId"></label>
+                <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control">
+                    <option disabled selected>Select Category</option>
+                </select>
+                <span asp-validation-for="CategoryId" class="text-danger"></span>
+            </div>
+
+            <div class="mb-3">
+                <input type="submit" value="Add New" class="btn btn-primary" />
+                <a asp-action="Index" class="btn btn-secondary">Back To List</a>
+            </div>
+        </div>
+
+        <div class="col-md-6 d-flex justify-content-center">
+            <img class="cover-preview d-none pt-4 overflow-hidden"  width="500" height="400" alt="Product Image" />
+        </div>
+            
     </div>
-
-    <div class="mb-3">
-        <label asp-for="CategoryId"></label>
-        <select asp-for="CategoryId" asp-items="Model.Categories" class="form-control">
-            <option disabled selected>Select Category</option>
-        </select>
-        <span asp-validation-for="CategoryId" class="text-danger"></span>
-    </div>
-
-
-
-    <div class="mb-3">
-        <input type="submit" value="Add New" class="btn btn-primary" />
-        <a asp-action="Index" class="btn btn-secondary">Back To List</a>
-    </div>
+   
 </form>
 
 @section Scripts {
     <partial name="_ValidationScriptsPartial" />
+    <script src="~/js/filesize-validator.js" asp-append-version="true"></script>
+    <script src="~/js/Product-Form.js" asp-append-version="true"></script>
 }

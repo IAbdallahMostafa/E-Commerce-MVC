@@ -1,8 +1,24 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
+﻿@model IEnumerable<Category>
 @{
+    ViewBag.PageTitle = "Product Management";
+    ViewBag.CardTitle = "All Products";
 }
-<h1>
-    Hello
-</h1>
+
+<a asp-action="Create" class="btn btn-primary">Add New Product</a>
+
+<table id="productsTable"class="table table-hover" width="100%">
+    <thead>
+        <tr>
+            <td>Name</td>
+            <td>Description</td>
+            <td>Price</td>
+            <td>Category</td>
+            <td>Image</td>
+        </tr>
+    </thead>
+   
+</table>
+
+@section Scripts {
+    <script src="~/js/products.js"></script>
+}

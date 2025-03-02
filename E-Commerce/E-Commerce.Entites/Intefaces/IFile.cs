@@ -5,25 +5,29 @@ namespace E_Commerce.Entites.Intefaces
 {
     public interface IFile
     {
-        string SaveFile(string rootPath, string folderName, IFormFile file)
+        string SaveFile(string rootPath, string imagesPath, IFormFile file)
         {
             if (file != null)
             {
-                var fullfolder = Path.Combine(rootPath, folderName); //WWWroot/images/products
-                string fileName = Guid.NewGuid().ToString(); //random name (123456)
-                var extension = Path.GetExtension(file.FileName); //.jpg
-                var fullPath = Path.Combine(fullfolder, fileName + extension); //WWWroot/images/products/123456.jpg                                                   
 
+                string fileName = Guid.NewGuid().ToString(); 
+                var extension = Path.GetExtension(file.FileName); 
+                var fullPath = @$"{rootPath}{imagesPath}\{fileName}{extension}";
+                
                 using (var fileStream = new FileStream(fullPath, FileMode.Create))
                 {
                     file.CopyTo(fileStream);
                 }
-                return fullPath;
+                return $@"{fileName}{extension}";
             }
             return null!;
 
         }
 
+        void DeleteFile(string pathToDelete)
+        {
+            System.IO.File.Delete(pathToDelete);
+        }
 
     }
 }

@@ -16,8 +16,12 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
 
         public IActionResult Index()
         {
+            return View(); 
+        }
+        public IActionResult GetAll()
+        {
             var categories = _unitOfWork.Categories.GetAll();
-            return View(categories); 
+            return Json(new { data = categories });
         }
 
         [HttpGet]

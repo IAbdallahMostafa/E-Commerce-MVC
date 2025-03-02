@@ -5,16 +5,64 @@
       "PackagePath": "staticwebassets\\E-Commerce.Web.7ewrtpdt4p.bundle.scp.css"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\0d6bcf90-3de7-4e9c-80a6-e57d9ee21914.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\0d6bcf90-3de7-4e9c-80a6-e57d9ee21914.jpg"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\13b7bac9-c901-430c-b951-583e46bae1e9.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\13b7bac9-c901-430c-b951-583e46bae1e9.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\3c447529-f24f-43e5-be25-ddced86a85bd.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\3c447529-f24f-43e5-be25-ddced86a85bd.jpg"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\56d0ba5d-00b8-4932-a72f-b3bd5c666d18.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\56d0ba5d-00b8-4932-a72f-b3bd5c666d18.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\778b9507-5be3-4fe1-8d85-6c4e2e7a270f.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\778b9507-5be3-4fe1-8d85-6c4e2e7a270f.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\78ec1faf-9f51-40ce-bc69-2355ffabd2f6.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\78ec1faf-9f51-40ce-bc69-2355ffabd2f6.jpg"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\990fe7a8-f561-4dc8-83b7-d78db51eeb8c.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\990fe7a8-f561-4dc8-83b7-d78db51eeb8c.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\9be56211-8fed-4330-a903-0f95a20aebd5.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\9be56211-8fed-4330-a903-0f95a20aebd5.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\a02e478f-2090-4a58-8fdc-eb439e8277d9.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\a02e478f-2090-4a58-8fdc-eb439e8277d9.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\a4800917-f8e4-489f-91f1-f8a6d9854d4b.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\a4800917-f8e4-489f-91f1-f8a6d9854d4b.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\c5b95091-bd7a-466b-9b22-eb0baee2d90a.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\c5b95091-bd7a-466b-9b22-eb0baee2d90a.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\ddf877d4-ec63-4f66-9f95-d89d7fba9a60.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\ddf877d4-ec63-4f66-9f95-d89d7fba9a60.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\e26cdd21-f863-4cce-bd6d-69479aa8bd62.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\e26cdd21-f863-4cce-bd6d-69479aa8bd62.jpg"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\fc1ef9e5-cf55-4cde-b163-f1cb175727e7.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\fc1ef9e5-cf55-4cde-b163-f1cb175727e7.jpg"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\adminlte.css",
@@ -127,6 +175,10 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\alt\\adminlte.plugins.min.css.map",
       "PackagePath": "staticwebassets\\css\\alt\\adminlte.plugins.min.css.map"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\datatable.css",
+      "PackagePath": "staticwebassets\\css\\datatable.css"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\site.css",
@@ -277,6 +329,10 @@
       "PackagePath": "staticwebassets\\js\\.eslintrc.json"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\Product-Form.js",
+      "PackagePath": "staticwebassets\\js\\Product-Form.js"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\adminlte.js",
       "PackagePath": "staticwebassets\\js\\adminlte.js"
     },
@@ -293,8 +349,20 @@
       "PackagePath": "staticwebassets\\js\\adminlte.min.js.map"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\categories.js",
+      "PackagePath": "staticwebassets\\js\\categories.js"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\datatable.js",
+      "PackagePath": "staticwebassets\\js\\datatable.js"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\demo.js",
       "PackagePath": "staticwebassets\\js\\demo.js"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\filesize-validator.js",
+      "PackagePath": "staticwebassets\\js\\filesize-validator.js"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\pages\\dashboard.js",
@@ -307,6 +375,10 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\pages\\dashboard3.js",
       "PackagePath": "staticwebassets\\js\\pages\\dashboard3.js"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\products.js",
+      "PackagePath": "staticwebassets\\js\\products.js"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\site.js",

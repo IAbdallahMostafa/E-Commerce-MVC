@@ -1,4 +1,5 @@
 ﻿using System.ComponentModel.DataAnnotations;
+using System.Text.Json.Serialization;
 namespace E_Commerce.Entities.Models
 {
     public class Category
@@ -13,6 +14,7 @@ namespace E_Commerce.Entities.Models
         public string Description { get; set; } = string.Empty;
 
         public DateTime CreateAt { get; set; } = DateTime.Now;
+        [JsonIgnore]
         public List<Product> Products { get; set; } = new();
     }
 }
