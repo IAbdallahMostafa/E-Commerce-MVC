@@ -34,7 +34,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Folder Include="Areas\Customer\Views\" />
     <Folder Include="wwwroot\Images\Product\" />
   </ItemGroup>
 
