@@ -3,20 +3,8 @@
   "WorkspaceRootPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\views\\product\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{7771FEB5-480D-468A-91DB-46F1BEC1A9F6}|E-Commerce.Entites\\E-Commerce.Entities.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.entites\\intefaces\\ifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7771FEB5-480D-468A-91DB-46F1BEC1A9F6}|E-Commerce.Entites\\E-Commerce.Entities.csproj|solutionrelative:e-commerce.entites\\intefaces\\ifile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\views\\product\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\scaffoldingreadme.txt||{8B382828-6202-11D1-8870-0000F87579D2}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +14,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -34,54 +22,15 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "IFile.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\Intefaces\\IFile.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Entites\\Intefaces\\IFile.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\Intefaces\\IFile.cs",
-              "RelativeToolTip": "E-Commerce.Entites\\Intefaces\\IFile.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-02T00:05:26.678Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Edit.cshtml",
-              "ViewState": "AgIAABcAAAAAAAAAAAAAAB0AAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T22:35:37.379Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Create.cshtml",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Views\\Product\\Create.cshtml",
-              "ViewState": "AgIAACcAAAAAAAAAAAAgwEAAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-01T20:34:20.009Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ProductController.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Controllers\\ProductController.cs",
-              "ViewState": "AgIAAFUAAAAAAAAAAAAAAGQAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-01T20:27:40.117Z",
+              "Title": "ScaffoldingReadMe.txt",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\ScaffoldingReadMe.txt",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\ScaffoldingReadMe.txt",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\ScaffoldingReadMe.txt",
+              "RelativeToolTip": "E-Commerce.Web\\ScaffoldingReadMe.txt",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003109|",
+              "WhenOpened": "2025-03-03T04:53:30.636Z",
               "EditorCaption": ""
             }
           ]

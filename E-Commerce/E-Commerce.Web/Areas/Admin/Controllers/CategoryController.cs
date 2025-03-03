@@ -1,6 +1,8 @@
 ﻿using E_Commerce.Entites.Intefaces;
 using E_Commerce.Entites.Interfaces;
 using E_Commerce.Entities.Models;
+using E_Commerce.Web.Settings;
+using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Mvc;
 
 namespace E_Commerce.Web.Areas.Admin.Controllers
@@ -68,24 +70,30 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
             return View(category);
         }
 
-        [HttpGet]
+        [HttpDelete]
         public IActionResult Delete(int id)
         {
+
             var category = _unitOfWork.Categories.GetOne(e => e.Id == id);
             if (category == null)
-                return NotFound("This Category Is Not Found!");
-            return View(category);
+                return Json(new { success = false, message = "Error While Deleting!" });
+
+            try
+            {
+                _unitOfWork.Categories.Delete(category);
+                _unitOfWork.Complete();
+                return Json(new { success = true, message = "Category Deleted Successfully!" });
+            }
+            catch (Exception ex)
+            {
+                if (ex.InnerException != null && ex.InnerException.Message.Contains("DELETE"))
+                {
+                    return Json(new { success = false, message = "Cannot Delete This Category Because It Has Associated Products!" });
+                }
+
+                return Json(new { success = false, message = "An Error Occurred While Deleting The Category!" });
+            }
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeleteCategory(Category category)
-        {
-             _unitOfWork.Categories.Delete(category);
-            _unitOfWork.Complete();
-             TempData["Delete"] = "Category Deleted Successfully";
-             return RedirectToAction("Index");
-            
-        }
     }
 }

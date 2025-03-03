@@ -84,7 +84,7 @@ namespace E_Commerce.DataAccess.Migrations
                     b.HasOne("E_Commerce.Entities.Models.Category", "Category")
                         .WithMany("Products")
                         .HasForeignKey("CategoryId")
-                        .OnDelete(DeleteBehavior.Cascade)
+                        .OnDelete(DeleteBehavior.Restrict)
                         .IsRequired();
 
                     b.Navigation("Category");

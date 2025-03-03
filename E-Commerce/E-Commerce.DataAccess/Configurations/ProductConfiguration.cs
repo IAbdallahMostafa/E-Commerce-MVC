@@ -9,7 +9,11 @@ namespace E_Commerce.DataAccess.Configurations
         public void Configure(Microsoft.EntityFrameworkCore.Metadata.Builders.EntityTypeBuilder<Product> builder)
         {
             builder.Property(e => e.Price).HasColumnType("decimal(18,2)");
-            builder.HasOne(e => e.Category).WithMany(e => e.Products).HasForeignKey(e => e.CategoryId);
+            builder.HasOne(e => e.Category).WithMany(e => e.Products)
+                .HasForeignKey(e => e.CategoryId).OnDelete(DeleteBehavior.Restrict);
+
         }
     }
+
+
 }

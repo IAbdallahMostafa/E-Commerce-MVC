@@ -13,16 +13,16 @@
       "PackagePath": "staticwebassets\\Images\\Product\\13b7bac9-c901-430c-b951-583e46bae1e9.jpg"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\341573eb-4588-4d5f-8511-6c5d74796520.jpg",
+      "PackagePath": "staticwebassets\\Images\\Product\\341573eb-4588-4d5f-8511-6c5d74796520.jpg"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\3c447529-f24f-43e5-be25-ddced86a85bd.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\3c447529-f24f-43e5-be25-ddced86a85bd.jpg"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\3c7f4526-ea10-408a-bf3b-b84592eebc7c.jpg"
-    },
-    {
-      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\56d0ba5d-00b8-4932-a72f-b3bd5c666d18.jpg",
-      "PackagePath": "staticwebassets\\Images\\Product\\56d0ba5d-00b8-4932-a72f-b3bd5c666d18.jpg"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\778b9507-5be3-4fe1-8d85-6c4e2e7a270f.jpg",
@@ -47,10 +47,6 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\a4800917-f8e4-489f-91f1-f8a6d9854d4b.jpg",
       "PackagePath": "staticwebassets\\Images\\Product\\a4800917-f8e4-489f-91f1-f8a6d9854d4b.jpg"
-    },
-    {
-      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\c5b95091-bd7a-466b-9b22-eb0baee2d90a.jpg",
-      "PackagePath": "staticwebassets\\Images\\Product\\c5b95091-bd7a-466b-9b22-eb0baee2d90a.jpg"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\ddf877d4-ec63-4f66-9f95-d89d7fba9a60.jpg",
@@ -187,6 +183,18 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\toastr.min.css",
       "PackagePath": "staticwebassets\\css\\toastr.min.css"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\customer\\assets\\favicon.ico",
+      "PackagePath": "staticwebassets\\customer\\assets\\favicon.ico"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\customer\\css\\styles.css",
+      "PackagePath": "staticwebassets\\customer\\css\\styles.css"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\customer\\js\\scripts.js",
+      "PackagePath": "staticwebassets\\customer\\js\\scripts.js"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\favicon.ico",
@@ -383,6 +391,10 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\sweetAlert.js",
+      "PackagePath": "staticwebassets\\js\\sweetAlert.js"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\toastr.min.js",

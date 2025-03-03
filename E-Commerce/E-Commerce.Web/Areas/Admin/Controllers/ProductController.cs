@@ -107,24 +107,21 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
             return View(productVM);
         }
 
-        [HttpGet]
+        [HttpDelete]
         public IActionResult Delete(int id)
         {
             var product = _unitOfWork.Products.GetOne(e => e.Id == id);
             if (product == null)
-                return NotFound("This Product Is Not Found!");
-            return View(product);
+                return Json(new {success = false, message = "Error While Deleting!"});
+            else
+            {
+                var pathToDelete = $"{_webHostEnviornment.WebRootPath}{ConstantsFile.ProductsPath}\\{product.Image}";
+                _unitOfWork.Products.DeleteFile(pathToDelete);
+                _unitOfWork.Products.Delete(product);
+                _unitOfWork.Complete();
+                return Json(new { success = true, message = "Product Deleted Successfully" });
+            }
         }
 
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public IActionResult DeleteProduct(Product product)
-        {
-             _unitOfWork.Products.Delete(product);
-            _unitOfWork.Complete();
-             TempData["Delete"] = "Product Deleted Successfully";
-             return RedirectToAction("Index");
-            
-        }
     }
 }
