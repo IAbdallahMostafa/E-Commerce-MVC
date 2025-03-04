@@ -5,6 +5,7 @@ using E_Commerce.Entites.Interfaces;
 using E_Commerce.Entities.Models;
 using E_Commerce.Web.Settings.Mapper;
 using Microsoft.EntityFrameworkCore;
+using Microsoft.AspNetCore.Identity;
 
 namespace E_Commerce.Web
 {
@@ -23,6 +24,8 @@ namespace E_Commerce.Web
             // Register DBContex
             builder.Services.AddDbContext<AppDBContext>(options => 
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
+
+            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDBContext>();
             
             // Register UnitOfWork
             builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();

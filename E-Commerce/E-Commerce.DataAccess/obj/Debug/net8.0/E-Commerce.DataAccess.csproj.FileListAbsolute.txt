@@ -2,6 +2,8 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commer
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.DataAccess.runtimeconfig.json
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.DataAccess.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.DataAccess.pdb
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.Entities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.Entities.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.csproj.AssemblyReference.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.AssemblyInfoInputs.cache
@@ -14,5 +16,3 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\refint\E
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.genruntimeconfig.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\ref\E-Commerce.DataAccess.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.Entities.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.Entities.pdb

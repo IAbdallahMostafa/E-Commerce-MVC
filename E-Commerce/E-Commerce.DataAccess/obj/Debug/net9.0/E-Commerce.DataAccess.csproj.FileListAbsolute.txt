@@ -1,0 +1,6 @@
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net9.0\E-Commerce.DataAccess.csproj.AssemblyReference.cache
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net9.0\E-Commerce.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net9.0\E-Commerce.DataAccess.AssemblyInfoInputs.cache
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net9.0\E-Commerce.DataAccess.AssemblyInfo.cs
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net9.0\E-Commerce.DataAccess.csproj.CoreCompileInputs.cache
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net9.0\E-Commerce.DataAccess.sourcelink.json
