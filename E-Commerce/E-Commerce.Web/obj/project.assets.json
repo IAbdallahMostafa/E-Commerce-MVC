@@ -3997,6 +3997,19 @@
         "runtime": {
           "bin/placeholder/E-Commerce.Entities.dll": {}
         }
+      },
+      "Utilities/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "Microsoft.AspNetCore.Identity.UI": "8.0.11"
+        },
+        "compile": {
+          "bin/placeholder/Utilities.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Utilities.dll": {}
+        }
       }
     }
   },
@@ -10239,6 +10252,11 @@
       "type": "project",
       "path": "../E-Commerce.Entites/E-Commerce.Entities.csproj",
       "msbuildProject": "../E-Commerce.Entites/E-Commerce.Entities.csproj"
+    },
+    "Utilities/1.0.0": {
+      "type": "project",
+      "path": "../Utilities/Utilities.csproj",
+      "msbuildProject": "../Utilities/Utilities.csproj"
     }
   },
   "projectFileDependencyGroups": {
@@ -10251,7 +10269,8 @@
       "Microsoft.EntityFrameworkCore.Sqlite >= 8.0.11",
       "Microsoft.EntityFrameworkCore.Tools >= 9.0.2",
       "Microsoft.Extensions.Configuration.Json >= 9.0.2",
-      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7"
+      "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 8.0.7",
+      "Utilities >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -10288,6 +10307,9 @@
           "projectReferences": {
             "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj": {
               "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj"
+            },
+            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\Utilities.csproj": {
+              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\Utilities.csproj"
             }
           }
         }

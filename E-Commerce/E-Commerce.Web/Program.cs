@@ -6,6 +6,8 @@ using E_Commerce.Entities.Models;
 using E_Commerce.Web.Settings.Mapper;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.UI.Services;
+using Utilities;
 
 namespace E_Commerce.Web
 {
@@ -25,8 +27,11 @@ namespace E_Commerce.Web
             builder.Services.AddDbContext<AppDBContext>(options => 
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
 
-            builder.Services.AddDefaultIdentity<IdentityUser>(options => options.SignIn.RequireConfirmedAccount = true).AddEntityFrameworkStores<AppDBContext>();
+            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+                .AddDefaultTokenProviders()
+                .AddEntityFrameworkStores<AppDBContext>();
             
+            builder.Services.AddSingleton<IEmailSender, EmailSender>();
             // Register UnitOfWork
             builder.Services.AddTransient<IUnitOfWork, UnitOfWork>();
 

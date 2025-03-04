@@ -33,6 +33,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\E-Commerce.DataAccess\E-Commerce.DataAccess.csproj" />
+    <ProjectReference Include="..\Utilities\Utilities.csproj" />
   </ItemGroup>
 
   <ItemGroup>
