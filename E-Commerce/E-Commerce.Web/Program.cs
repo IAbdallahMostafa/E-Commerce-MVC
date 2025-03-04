@@ -27,7 +27,7 @@ namespace E_Commerce.Web
             builder.Services.AddDbContext<AppDBContext>(options => 
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
 
-            builder.Services.AddIdentity<IdentityUser, IdentityRole>()
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddDefaultTokenProviders()
                 .AddEntityFrameworkStores<AppDBContext>();
             
