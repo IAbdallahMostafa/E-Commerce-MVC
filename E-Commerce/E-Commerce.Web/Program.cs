@@ -1,7 +1,6 @@
 using E_Commerce.DataAccess.Data;
 using E_Commerce.DataAccess.Repositries;
 using E_Commerce.Entites.Intefaces;
-using E_Commerce.Entites.Interfaces;
 using E_Commerce.Entities.Models;
 using E_Commerce.Web.Settings.Mapper;
 using Microsoft.EntityFrameworkCore;
@@ -28,8 +27,9 @@ namespace E_Commerce.Web
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
-                .AddDefaultTokenProviders()
-                .AddEntityFrameworkStores<AppDBContext>();
+                .AddEntityFrameworkStores<AppDBContext>()
+                .AddDefaultTokenProviders(); ;
+
             
             builder.Services.AddSingleton<IEmailSender, EmailSender>();
             // Register UnitOfWork

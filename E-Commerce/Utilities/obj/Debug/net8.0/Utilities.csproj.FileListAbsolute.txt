@@ -1,6 +1,7 @@
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\bin\Debug\net8.0\Utilities.deps.json
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\bin\Debug\net8.0\Utilities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\bin\Debug\net8.0\Utilities.pdb
+E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.csproj.AssemblyReference.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.GeneratedMSBuildEditorConfig.editorconfig
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfoInputs.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.AssemblyInfo.cs
@@ -10,4 +11,3 @@ E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\refint\Utilities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\ref\Utilities.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\Utilities.csproj.AssemblyReference.cache
