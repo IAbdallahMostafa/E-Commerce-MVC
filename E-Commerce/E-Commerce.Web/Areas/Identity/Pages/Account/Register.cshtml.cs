@@ -11,6 +11,7 @@ using Microsoft.AspNetCore.Identity.UI.Services;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.AspNetCore.WebUtilities;
+using Microsoft.IdentityModel.Tokens;
 using Utilities;
 
 namespace E_Commerce.Web.Areas.Identity.Pages.Account
@@ -121,25 +122,46 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
 
         public async Task<IActionResult> OnPostAsync(string returnUrl = null)
         {
-            returnUrl ??= Url.Content("~/Identity/Account/Login");
+            returnUrl ??= Url.Content("~/");
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
             if (ModelState.IsValid)
             {
+
                 var user = CreateUser();
+
+
+                //Add Role
+                // if admin who is create the user, userRole not be null
+                var userRole = HttpContext.Request.Form["userRadio"].ToString();
+                if (userRole is not null)
+                {
+                    if (userRole == string.Empty) // if not select role
+                    {
+                        ModelState.AddModelError(string.Empty, "Role selection is required!");
+                        return Page();
+                    }
+                    await _userManager.AddToRoleAsync(user, userRole);
+                }
+                else
+                {
+                    await _userManager.AddToRoleAsync(user, Roles.CustomerRole);   // in case normal user (customer) who register will added with customer role 
+                }
+
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 user.Name = Input.Name;
                 user.Age = Input.Age;
                 user.Address = Input.Address;
+
+
                 var result = await _userManager.CreateAsync(user, Input.Password);
 
                 if (result.Succeeded)
                 {
                     _logger.LogInformation("User created a new account with password.");
 
-                    //Add Role
-                    await _userManager.AddToRoleAsync(user, Roles.CustomerRole);
+
 
                     var userId = await _userManager.GetUserIdAsync(user);
                     var code = await _userManager.GenerateEmailConfirmationTokenAsync(user);
@@ -159,9 +181,19 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
                     }
                     else
                     {
-                        await _signInManager.SignInAsync(user, isPersistent: false);
-                        return LocalRedirect(returnUrl);
+                        if (!userRole.IsNullOrEmpty())
+                        {
+                            return RedirectToAction("Index", "Users", new { area = "Admin" });
+
+                        }
+                        else
+                        {
+                            await _signInManager.SignInAsync(user, isPersistent: false);
+                            return RedirectToAction("Index", "Home", new { area = "Customer" });
+                        }
+
                     }
+                     
                 }
                 foreach (var error in result.Errors)
                 {
