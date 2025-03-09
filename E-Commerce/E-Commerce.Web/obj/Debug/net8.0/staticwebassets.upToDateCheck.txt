@@ -88,6 +88,7 @@ wwwroot\js\products.js
 wwwroot\js\site.js
 wwwroot\js\sweetAlert.js
 wwwroot\js\toastr.min.js
+wwwroot\js\user.js
 wwwroot\lib\bootstrap\dist\css\bootstrap.css
 wwwroot\lib\bootstrap\dist\css\bootstrap.css.map
 wwwroot\lib\bootstrap\dist\css\bootstrap.min.css

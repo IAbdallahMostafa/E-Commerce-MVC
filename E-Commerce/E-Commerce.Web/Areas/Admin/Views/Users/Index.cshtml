@@ -1,0 +1,25 @@
+﻿@model IEnumerable<ApplicationUser>
+@{
+    ViewBag.PageTitle = "User Management";
+    ViewBag.CardTitle = "All Users";
+}
+
+<a asp-area="Identity" asp-controller="Account" asp-action="Register" class="btn btn-primary">Add New User</a>
+
+<table id="usersTable" class="table table-hover" width="100%">
+    <thead>
+        <tr>
+            <td>Name</td> 
+            <td>Email</td>
+            <td>Phone</td>
+            <td>Address</td>
+            <td>Age</td>
+            <td>Actions</td>
+        </tr>
+    </thead>
+
+</table>
+
+@section Scripts {
+    <script src="~/js/user.js"></script>
+}

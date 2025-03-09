@@ -8,11 +8,13 @@ namespace E_Commerce.DataAccess.Repositries
         private readonly AppDBContext _context;
         public ICategoryRepositry Categories { get; private set; }
         public IProductRepositry Products { get; private set; }
+        public IUserRepositry Users { get; private set; }
         public UnitOfWork(AppDBContext context) 
         {
             _context = context;
             Categories = new CategoryRepositry(context);
             Products = new ProductRepositry(context);
+            Users = new UserRepositry(context);
         }
         public int Complete()
         {
