@@ -4,11 +4,12 @@ using E_Commerce.Entites.Intefaces;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Utilities;
 
 namespace E_Commerce.Web.Areas.Admin.Controllers
 {
     [Area("Admin")]
-    [Authorize]
+    [Authorize (Roles = Roles.AdminRole)]
     public class UsersController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;

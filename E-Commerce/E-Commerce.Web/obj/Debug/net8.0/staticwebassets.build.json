@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "5fA0ZSpXMf0HKepmuuHTRUY56rFo81CE7r7OCCZuUqI=",
+  "Hash": "HCENlxEazbcjxZqmQMNuU+MCmMx/8iEFiUfkEeJUc1A=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -3223,8 +3223,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "9yvv82ll8j",
-      "Integrity": "f2y73bwetYnBTydAORYgjztOpYYglGBrwofc6sXk89g=",
+      "Fingerprint": "o3zxbzx2fu",
+      "Integrity": "DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\user.js"
@@ -15096,51 +15096,6 @@
       ]
     },
     {
-      "Route": "js/user.9yvv82ll8j.js",
-      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "923"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"f2y73bwetYnBTydAORYgjztOpYYglGBrwofc6sXk89g=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 13:12:15 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "9yvv82ll8j"
-        },
-        {
-          "Name": "label",
-          "Value": "js/user.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-f2y73bwetYnBTydAORYgjztOpYYglGBrwofc6sXk89g="
-        }
-      ]
-    },
-    {
       "Route": "js/user.js",
       "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
       "Selectors": [],
@@ -15151,7 +15106,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "923"
+          "Value": "927"
         },
         {
           "Name": "Content-Type",
@@ -15159,11 +15114,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"f2y73bwetYnBTydAORYgjztOpYYglGBrwofc6sXk89g=\""
+          "Value": "\"DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 13:12:15 GMT"
+          "Value": "Sun, 09 Mar 2025 13:22:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15173,7 +15128,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-f2y73bwetYnBTydAORYgjztOpYYglGBrwofc6sXk89g="
+          "Value": "sha256-DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.o3zxbzx2fu.js",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "927"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sun, 09 Mar 2025 13:22:58 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "o3zxbzx2fu"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o="
         }
       ]
     },

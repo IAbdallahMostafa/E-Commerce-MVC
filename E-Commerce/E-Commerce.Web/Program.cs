@@ -28,7 +28,8 @@ namespace E_Commerce.Web
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
                 .AddEntityFrameworkStores<AppDBContext>()
-                .AddDefaultTokenProviders(); ;
+                .AddDefaultUI()
+                .AddDefaultTokenProviders(); 
 
             
             builder.Services.AddSingleton<IEmailSender, EmailSender>();
