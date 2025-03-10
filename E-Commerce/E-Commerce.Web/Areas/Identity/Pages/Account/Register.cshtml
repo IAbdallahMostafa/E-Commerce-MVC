@@ -45,10 +45,12 @@
                     @if(User.IsInRole(Roles.AdminRole))
                     {
                         <label>Rule: </label>
-                        <input type="radio" name="userRadio" value="@Roles.CustomerRole" /> @Roles.CustomerRole
-                        <input type="radio" name="userRadio" value="@Roles.EditorRole" /> @Roles.EditorRole
-                        <input type="radio" name="userRadio" value="@Roles.AdminRole" /> @Roles.AdminRole
-                        <br /><br />
+                        
+                        @foreach (var role in Model.AllRoles)
+                                {
+                            <input type="radio" name="userRadio" value="@role" /> @role
+                        }
+                        <br /> <br />
                         <button id="registerSubmit" type="submit" class="w-100 btn btn-lg btn-primary">Create New User</button>
 
                     }

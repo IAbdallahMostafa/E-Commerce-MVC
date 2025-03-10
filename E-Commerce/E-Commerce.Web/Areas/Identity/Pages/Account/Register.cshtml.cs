@@ -25,6 +25,8 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
         private readonly ILogger<RegisterModel> _logger;
         private readonly IEmailSender _emailSender;
         private readonly RoleManager<IdentityRole> _roleManager;
+        public List<string> AllRoles { get; set; } = new List<string>();
+
         public RegisterModel(
             UserManager<ApplicationUser> userManager,
             IUserStore<ApplicationUser> userStore,
@@ -115,6 +117,9 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
                 _roleManager.CreateAsync(new IdentityRole(Roles.EditorRole)).GetAwaiter().GetResult();
                 _roleManager.CreateAsync(new IdentityRole(Roles.CustomerRole)).GetAwaiter().GetResult();
             }
+
+            // load all roles to display them in admin register form 
+            AllRoles = _roleManager.Roles.Select(r => r.Name).ToList();
 
             ReturnUrl = returnUrl;
             ExternalLogins = (await _signInManager.GetExternalAuthenticationSchemesAsync()).ToList();
