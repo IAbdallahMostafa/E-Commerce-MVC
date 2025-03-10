@@ -41,13 +41,8 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         [HttpPost]
         [ValidateAntiForgeryToken]
         [Authorize]
-        public IActionResult Details(ShoppingCartViewModel shoppingCartVM)
+        public IActionResult Details(ShoppingCart shoppingCart)
         {
-
-            ShoppingCart shoppingCart = new ShoppingCart();
-            shoppingCart.ProductId = shoppingCartVM.Product.Id;
-            shoppingCart.Count = shoppingCartVM.Count;
-
             var claimsIdentity = (ClaimsIdentity)User.Identity!;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
             shoppingCart.ApplicationUserId =  claim.Value;

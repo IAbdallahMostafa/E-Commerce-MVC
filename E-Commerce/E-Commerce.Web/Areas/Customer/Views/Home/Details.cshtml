@@ -19,7 +19,7 @@
                 <p class="lead">@Model.Product.Description</p>
                 <div class="d-flex">
                     <input class="form-control text-center me-3" id="inputQuantity" asp-for="@Model.Count" min="1" style="max-width: 6rem" />
-                    <input hidden type="number" asp-for="@Model.Product.Id" />
+                    <input hidden type="number" name="ProductId" asp-for="@Model.Product.Id" />
                     <button class="btn btn-outline-dark flex-shrink-0" type="submit">
                         <i class="bi-cart-fill me-1"></i>
                         Add to cart

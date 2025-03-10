@@ -7,7 +7,8 @@ namespace E_Commerce.Entites.Models
 {
     public class ShoppingCart
     {
-        public int Id { get; set; }
+        [Key]
+        public int CartId { get; set; }
         public int Count { get; set; }
 
         public int ProductId { get; set; }
