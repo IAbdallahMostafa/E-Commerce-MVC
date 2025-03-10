@@ -1,7 +1,10 @@
 ﻿using E_Commerce.Entites.Intefaces;
+using E_Commerce.Entites.Models;
 using E_Commerce.Entities.Models;
 using E_Commerce.Web.ViewModels.Customer;
+using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using System.Security.Claims;
 
 namespace E_Commerce.Web.Areas.Customer.Controllers
 {
@@ -19,6 +22,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             return View(products);
         }
 
+        [HttpGet]
         public IActionResult Details(int id)
         {
             Product product = _unitOfWork.Products.GetOne(e => e.Id == id, new[] { "Category" });
@@ -29,10 +33,29 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 Product = product,
                 Count = 1,
-                RelatedProducts = _unitOfWork.Products.GetAll(e => e.CategoryId == product.CategoryId).Take(4)
+                RelatedProducts = _unitOfWork.Products.GetAll(e => e.CategoryId == product.CategoryId && e.Id != id).Take(4)
             }; 
             
             return View(shoppingCart);
+        }
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Authorize]
+        public IActionResult Details(ShoppingCartViewModel shoppingCartVM)
+        {
+
+            ShoppingCart shoppingCart = new ShoppingCart();
+            shoppingCart.ProductId = shoppingCartVM.Product.Id;
+            shoppingCart.Count = shoppingCartVM.Count;
+
+            var claimsIdentity = (ClaimsIdentity)User.Identity!;
+            var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
+            shoppingCart.ApplicationUserId =  claim.Value;
+
+            _unitOfWork.ShoppingCarts.Add(shoppingCart);
+            _unitOfWork.Complete();
+            
+            return RedirectToAction("Index", "Home");
         }
     }
 }

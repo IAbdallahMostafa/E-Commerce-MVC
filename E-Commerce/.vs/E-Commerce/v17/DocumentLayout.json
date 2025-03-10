@@ -3,12 +3,15 @@
   "WorkspaceRootPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Migrations\\20250310144205_Add ShoppingCarts Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:E-Commerce.DataAccess\\Migrations\\20250310144205_Add ShoppingCarts Table.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\customer\\views\\home\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|solutionrelative:e-commerce.dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|ViewDataWindow_MSSQL__/._sqlexpress/ECommerceMVC_DB/True/SqlTable/dbo.ShoppingCarts.sql||{0058A1F7-65F3-4DB9-B3D0-CA7E64DD73CD}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\customer\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +34,37 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "20250310144205_Add ShoppingCarts Table.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Migrations\\20250310144205_Add ShoppingCarts Table.cs",
-              "RelativeDocumentMoniker": "E-Commerce.DataAccess\\Migrations\\20250310144205_Add ShoppingCarts Table.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Migrations\\20250310144205_Add ShoppingCarts Table.cs",
-              "RelativeToolTip": "E-Commerce.DataAccess\\Migrations\\20250310144205_Add ShoppingCarts Table.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:42:06.368Z",
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "RelativeToolTip": "E-Commerce.Web\\Areas\\Customer\\Views\\Home\\Details.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-10T15:33:00.012Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "AppDBContext.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Data\\AppDBContext.cs",
-              "RelativeDocumentMoniker": "E-Commerce.DataAccess\\Data\\AppDBContext.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Data\\AppDBContext.cs",
-              "RelativeToolTip": "E-Commerce.DataAccess\\Data\\AppDBContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
+              "Title": "dbo.ShoppingCarts [Data]",
+              "DocumentMoniker": "ViewDataWindow_MSSQL__/._sqlexpress/ECommerceMVC_DB/True/SqlTable/dbo.ShoppingCarts.sql",
+              "ToolTip": "dbo.ShoppingCarts [Data]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-03-10T15:30:17.414Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "E-Commerce.Web\\Areas\\Customer\\Controllers\\HomeController.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAwDkAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T14:40:58.042Z",
+              "WhenOpened": "2025-03-10T14:55:36.736Z",
               "EditorCaption": ""
             }
           ]

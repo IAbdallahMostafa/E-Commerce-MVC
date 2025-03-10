@@ -38,6 +38,7 @@
         "dependencies": {
           "AutoMapper": "14.0.0",
           "E-Commerce.DataAccess": "1.0.0",
+          "E-Commerce.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity.UI": "8.0.11",
           "Microsoft.AspNetCore.Mvc.Razor.RuntimeCompilation": "8.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
@@ -45,7 +46,6 @@
           "Microsoft.EntityFrameworkCore.Tools": "9.0.2",
           "Microsoft.Extensions.Configuration.Json": "9.0.2",
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": "8.0.7",
-          "Utilities": "1.0.0",
           "Microsoft.AspNetCore.Antiforgery.Reference": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.Abstractions.Reference": "8.0.0.0",
           "Microsoft.AspNetCore.Authentication.BearerToken": "8.0.0.0",
@@ -3366,18 +3366,18 @@
           "E-Commerce.Entities.dll": {}
         }
       },
-      "Utilities/1.0.0": {
+      "E-Commerce.Utilities/1.0.0": {
         "dependencies": {
           "Microsoft.AspNetCore.Identity.UI": "8.0.11"
         },
         "runtime": {
-          "Utilities.dll": {
+          "E-Commerce.Utilities.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         },
         "compile": {
-          "Utilities.dll": {}
+          "E-Commerce.Utilities.dll": {}
         }
       },
       "Microsoft.AspNetCore.Antiforgery.Reference/8.0.0.0": {
@@ -6631,7 +6631,7 @@
       "serviceable": false,
       "sha512": ""
     },
-    "Utilities/1.0.0": {
+    "E-Commerce.Utilities/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

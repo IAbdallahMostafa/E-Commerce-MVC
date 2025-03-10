@@ -594,9 +594,7 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\browse
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.DataAccess.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entities.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Utilities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.DataAccess.pdb
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Utilities.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entities.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.csproj.AssemblyReference.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.GeneratedMSBuildEditorConfig.editorconfig
@@ -627,3 +625,5 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\refint\E-Commer
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.genruntimeconfig.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\ref\E-Commerce.Web.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Utilities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Utilities.pdb

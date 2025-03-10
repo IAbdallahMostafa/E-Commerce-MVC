@@ -802,9 +802,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\Utilities.csproj",
-      "projectName": "Utilities",
-      "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\Utilities.csproj",
+      "projectUniqueName": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj",
+      "projectName": "E-Commerce.Utilities",
+      "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
       "outputPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\obj\\",
       "projectStyle": "PackageReference",
