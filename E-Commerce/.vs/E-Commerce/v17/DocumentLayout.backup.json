@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\controllers\\userscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|solutionrelative:e-commerce.dataaccess\\data\\appdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -27,14 +27,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UsersController.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Controllers\\UsersController.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAAACoAAAAxAAAAAAAAAA==",
+              "Title": "AppDBContext.cs",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Data\\AppDBContext.cs",
+              "RelativeDocumentMoniker": "E-Commerce.DataAccess\\Data\\AppDBContext.cs",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Data\\AppDBContext.cs",
+              "RelativeToolTip": "E-Commerce.DataAccess\\Data\\AppDBContext.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAA/AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T12:53:41.091Z",
+              "WhenOpened": "2025-03-10T14:40:58.042Z",
               "EditorCaption": ""
             }
           ]
