@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "CKZOKosdAcv/AY5qKH6+szyQoVUF1yTOHjC3SAmiHuA=",
+  "Hash": "67uuuawMl5Zoii1X6EKglNouwtrr9vBaIQvmFfE6pGs=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -3265,8 +3265,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "o3zxbzx2fu",
-      "Integrity": "DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o=",
+      "Fingerprint": "gn65e8ff1f",
+      "Integrity": "7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\user.js"
@@ -15302,6 +15302,51 @@
       ]
     },
     {
+      "Route": "js/user.gn65e8ff1f.js",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1613"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:35:22 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "gn65e8ff1f"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4="
+        }
+      ]
+    },
+    {
       "Route": "js/user.js",
       "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
       "Selectors": [],
@@ -15312,7 +15357,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "927"
+          "Value": "1613"
         },
         {
           "Name": "Content-Type",
@@ -15320,11 +15365,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o=\""
+          "Value": "\"7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 13:22:58 GMT"
+          "Value": "Mon, 10 Mar 2025 12:35:22 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15334,52 +15379,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o="
-        }
-      ]
-    },
-    {
-      "Route": "js/user.o3zxbzx2fu.js",
-      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "927"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Sun, 09 Mar 2025 13:22:58 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "o3zxbzx2fu"
-        },
-        {
-          "Name": "label",
-          "Value": "js/user.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-DOlUvClkEoW8RcEIPFWW95oe8kCQg8iM3udngG2101o="
+          "Value": "sha256-7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4="
         }
       ]
     },

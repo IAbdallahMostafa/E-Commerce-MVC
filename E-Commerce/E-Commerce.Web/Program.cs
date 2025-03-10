@@ -26,7 +26,8 @@ namespace E_Commerce.Web
             builder.Services.AddDbContext<AppDBContext>(options => 
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>()
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>
+                 (options => options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1))
                 .AddEntityFrameworkStores<AppDBContext>()
                 .AddDefaultUI()
                 .AddDefaultTokenProviders(); 
