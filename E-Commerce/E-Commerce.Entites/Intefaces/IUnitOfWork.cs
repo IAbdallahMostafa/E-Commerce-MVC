@@ -7,7 +7,7 @@ namespace E_Commerce.Entites.Intefaces
         ICategoryRepositry Categories {  get; }
         IProductRepositry Products { get; }
         IUserRepositry Users { get; }
-
+        IShoppingCartRepositry ShoppingCarts { get; }
         int Complete();
 
         Task<int> CompleteAsync(); 
