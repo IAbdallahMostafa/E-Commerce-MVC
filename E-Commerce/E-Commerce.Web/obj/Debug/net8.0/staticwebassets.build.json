@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "67uuuawMl5Zoii1X6EKglNouwtrr9vBaIQvmFfE6pGs=",
+  "Hash": "2vl4edKwrdbO5/yXKii2+7bH3PuS/ilzU/H72jtn5ck=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -3265,8 +3265,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "gn65e8ff1f",
-      "Integrity": "7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4=",
+      "Fingerprint": "zqjvcd98u2",
+      "Integrity": "RRp8/+eploO82d9WI0d/egv5Arjb6zbmV63SNEa0IlI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\user.js"
@@ -15302,51 +15302,6 @@
       ]
     },
     {
-      "Route": "js/user.gn65e8ff1f.js",
-      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "1613"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 12:35:22 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "gn65e8ff1f"
-        },
-        {
-          "Name": "label",
-          "Value": "js/user.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4="
-        }
-      ]
-    },
-    {
       "Route": "js/user.js",
       "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
       "Selectors": [],
@@ -15357,7 +15312,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "1613"
+          "Value": "1611"
         },
         {
           "Name": "Content-Type",
@@ -15365,11 +15320,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4=\""
+          "Value": "\"RRp8/+eploO82d9WI0d/egv5Arjb6zbmV63SNEa0IlI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Mon, 10 Mar 2025 12:35:22 GMT"
+          "Value": "Mon, 10 Mar 2025 12:37:40 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15379,7 +15334,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-7E7ka99NeuM+HAR6279IocuxMK1P2vp6QEugBQy2wC4="
+          "Value": "sha256-RRp8/+eploO82d9WI0d/egv5Arjb6zbmV63SNEa0IlI="
+        }
+      ]
+    },
+    {
+      "Route": "js/user.zqjvcd98u2.js",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\user.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "1611"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"RRp8/+eploO82d9WI0d/egv5Arjb6zbmV63SNEa0IlI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 10 Mar 2025 12:37:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "zqjvcd98u2"
+        },
+        {
+          "Name": "label",
+          "Value": "js/user.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-RRp8/+eploO82d9WI0d/egv5Arjb6zbmV63SNEa0IlI="
         }
       ]
     },

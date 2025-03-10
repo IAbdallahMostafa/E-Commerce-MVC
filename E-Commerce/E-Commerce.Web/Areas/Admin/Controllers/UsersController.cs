@@ -30,5 +30,22 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
         {
             return View();
         }
+
+        public IActionResult LockUnlock(string id)
+        {
+            var user = _unitOfWork.Users.GetOne(e => e.Id == id);
+            if (user == null) 
+                return NotFound("This User Is Not Found!");
+
+            if (user.LockoutEnd == null || user.LockoutEnd < DateTime.UtcNow)
+                user.LockoutEnd = DateTime.UtcNow.AddYears(1);  // lock for 1 year
+            else
+                user.LockoutEnd = DateTime.UtcNow;
+
+            _unitOfWork.Complete();
+
+            return RedirectToAction(nameof(Index));
+
+        }
     }
 }
