@@ -7,5 +7,15 @@ namespace E_Commerce.DataAccess.Repositries
     public class ShoppingCartRepositry : GenericRepositry<ShoppingCart>, IShoppingCartRepositry
     {
         public ShoppingCartRepositry(AppDBContext context) : base(context) { }
+
+        public void IncreaseCount(ShoppingCart cart, int count)
+        {
+            cart.Count += count;
+        }
+        public void DecreaseCount(ShoppingCart cart, int count)
+        {
+            cart.Count -= count;
+        }
+
     }
 }

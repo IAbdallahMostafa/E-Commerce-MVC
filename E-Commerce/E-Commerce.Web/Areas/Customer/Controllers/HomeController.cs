@@ -43,11 +43,23 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         [Authorize]
         public IActionResult Details(ShoppingCart shoppingCart)
         {
+            // get current user Id
             var claimsIdentity = (ClaimsIdentity)User.Identity!;
             var claim = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier);
-            shoppingCart.ApplicationUserId =  claim.Value;
 
-            _unitOfWork.ShoppingCarts.Add(shoppingCart);
+            // check if the same user add the same product before
+            var existisCart = _unitOfWork.ShoppingCarts.GetOne(e => e.ProductId == shoppingCart.ProductId && e.ApplicationUserId == claim.Value);
+
+            if (existisCart != null) // user add the same product before
+            {
+                _unitOfWork.ShoppingCarts.IncreaseCount(existisCart, shoppingCart.Count);
+            }
+            else // user not add the same product before
+            {
+                shoppingCart.ApplicationUserId = claim.Value;
+                _unitOfWork.ShoppingCarts.Add(shoppingCart);
+            }
+
             _unitOfWork.Complete();
             
             return RedirectToAction("Index", "Home");
