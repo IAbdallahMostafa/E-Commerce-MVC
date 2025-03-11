@@ -22,3 +22,10 @@
         toastr["error"]("@TempData["Delete"]")
     </script>
 }
+
+@if (TempData["CartAdded"] != null)
+{
+    <script type="text/javascript">
+        toastr["success"]("@TempData["CartAdded"]")
+    </script>
+}
