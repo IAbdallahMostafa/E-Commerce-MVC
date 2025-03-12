@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2vl4edKwrdbO5/yXKii2+7bH3PuS/ilzU/H72jtn5ck=",
+  "Hash": "xpUIg4GFx6vZfsUxEyHM3BpNTufE2Wt2HFzHMw1Wryg=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -5370,6 +5370,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\plugins\\jquery\\jquery.slim.min.map"
+    },
+    {
+      "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\shoppingCart\\ShoppingCart.css",
+      "SourceId": "E-Commerce.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\",
+      "BasePath": "_content/E-Commerce.Web",
+      "RelativePath": "shoppingCart/ShoppingCart#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ynm58mniox",
+      "Integrity": "Au79oeMWo3m1imecW9RPjUoT701b4baOAGuAjuj1nnY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\shoppingCart\\ShoppingCart.css"
     }
   ],
   "Endpoints": [
@@ -23580,6 +23601,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-u7e5khyithlIdTpu22PHhENmPcRdFiHRjhAuHcs05RI="
+        }
+      ]
+    },
+    {
+      "Route": "shoppingCart/ShoppingCart.css",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\shoppingCart\\ShoppingCart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Au79oeMWo3m1imecW9RPjUoT701b4baOAGuAjuj1nnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 14:33:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-Au79oeMWo3m1imecW9RPjUoT701b4baOAGuAjuj1nnY="
+        }
+      ]
+    },
+    {
+      "Route": "shoppingCart/ShoppingCart.ynm58mniox.css",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\shoppingCart\\ShoppingCart.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3558"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"Au79oeMWo3m1imecW9RPjUoT701b4baOAGuAjuj1nnY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 11 Mar 2025 14:33:40 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ynm58mniox"
+        },
+        {
+          "Name": "label",
+          "Value": "shoppingCart/ShoppingCart.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-Au79oeMWo3m1imecW9RPjUoT701b4baOAGuAjuj1nnY="
         }
       ]
     }

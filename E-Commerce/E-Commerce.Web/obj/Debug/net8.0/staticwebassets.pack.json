@@ -777,6 +777,10 @@
       "PackagePath": "staticwebassets\\plugins\\jquery\\jquery.slim.min.map"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\shoppingCart\\ShoppingCart.css",
+      "PackagePath": "staticwebassets\\shoppingCart\\ShoppingCart.css"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.E-Commerce.Web.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
