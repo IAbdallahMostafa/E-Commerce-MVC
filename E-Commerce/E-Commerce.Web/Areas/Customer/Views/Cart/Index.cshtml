@@ -48,7 +48,7 @@
 																<a class="btn btn-primary" asp-action="PlusQuantity" asp-route-cartId="@cart.CartId">+</a>
 																<span style="margin: 7px;">@cart.Count</span>
 																<a class="btn btn-primary" href="javascript:void(0);" onclick="decreaseQuantity(@cart.CartId)">-</a>
-																<a style="margin-left: 5px" href="javascript:void(0);" class="btn btn-danger" onclick="confirmDelete(@cart.CartId)">
+																<a style="margin-left: 15px" href="javascript:void(0);" class="btn btn-danger" onclick="confirmDelete(@cart.CartId)">
 																	<i class="fas fa-trash"></i>
 																</a>
 
@@ -56,9 +56,13 @@
 														</div>
 														<div class="col-md-3 price">
 															<span>@cart.Product.Price EGP</span>
+
 														</div>
+
 													</div>
+
 												</div>
+
 											</div>
 										</div>
 									</div>
@@ -125,7 +129,7 @@
 			}).then((result) => {
 				if (result.isConfirmed) {
 					$.ajax({
-						url: 'Customer/Cart/Delete', 
+						url: '/Customer/Cart/Delete', 
 						type: 'POST',
 						data: { cartId: cartId },
 						success: function (response) {

@@ -54,7 +54,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             }
 
         }
-
+        [HttpPost]
         public IActionResult Delete(int cartId)
         {
             var cart = _unitOfWork.ShoppingCarts.GetOne(e => e.CartId == cartId);
