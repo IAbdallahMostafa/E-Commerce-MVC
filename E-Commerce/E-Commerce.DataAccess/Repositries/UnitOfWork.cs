@@ -11,6 +11,9 @@ namespace E_Commerce.DataAccess.Repositries
         public IUserRepositry Users { get; private set; }
         public IShoppingCartRepositry ShoppingCarts { get; private set; }
 
+        public IOrderHeaderRepositry OrderHeaders { get; private set; }
+        public IOrderDetailsRepositry OrderDetails { get; private set; }
+
         public UnitOfWork(AppDBContext context) 
         {
             _context = context;
@@ -18,6 +21,8 @@ namespace E_Commerce.DataAccess.Repositries
             Products = new ProductRepositry(context);
             Users = new UserRepositry(context);
             ShoppingCarts = new ShoppingCartRepositry(context);
+            OrderHeaders = new OrderHeaderRepositry(context);
+            OrderDetails = new OrderDetailsRepositry(context);
         }
         public int Complete()
         {

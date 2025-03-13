@@ -8,6 +8,9 @@ namespace E_Commerce.Entites.Intefaces
         IProductRepositry Products { get; }
         IUserRepositry Users { get; }
         IShoppingCartRepositry ShoppingCarts { get; }
+        IOrderHeaderRepositry OrderHeaders { get; }
+        IOrderDetailsRepositry OrderDetails { get; }
+
         int Complete();
 
         Task<int> CompleteAsync(); 
