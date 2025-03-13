@@ -1,0 +1,95 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout Page</title>
+    <link rel="stylesheet" href="~/Summary/summary.css">
+</head>
+<body>
+    <div class="checkout-container">
+        <!-- Billing Address Section -->
+        <div class="billing-section">
+            <h2>Billing Address</h2>
+            <div class="form-container">
+               
+                <div class="form-group full-width">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" value="David Smith">
+                </div>
+
+                <div class="form-group full-width">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" value="david.343@gmail.com">
+                </div>
+
+                    
+                <div class="form-row">
+                    <div class="form-group half-width">                        
+                        <label for="city">City</label>
+                        <input type="text" id="city" value="Cairo">
+                    </div>
+
+                    <div class="form-group half-width">
+                        <label for="state">Phone Number</label>
+                        <input type="text" id="state" value="NY">
+
+                        
+                    </div>
+                </div>
+                <div class="form-group full-width">
+                    <label for="address">Address</label>
+                    <input type="text" id="address" value="123 s. Street">
+                </div>
+            </div>
+        </div>
+
+        <!-- Cart Summary Section -->
+        <div class="cart-summary-section">
+            <div class="summary-header">
+                <h2>Cart Summary</h2>
+                <a href="#" class="edit-link">Edit</a>
+            </div>
+
+            <div class="cart-item">
+                <div class="item-image">
+                    <img src="https://via.placeholder.com/100" alt="Coffee Cup">
+                    <span class="item-quantity">2</span>
+                </div>
+                <div class="item-details">
+                    <h3>BattleCreek Coffee</h3>
+                    <p class="item-sku">C-770</p>
+                </div>
+                <div class="item-price">$80.9</div>
+            </div>
+
+            <div class="promo-section">
+                <input type="text" placeholder="Gift Card or Promo Card">
+            </div>
+
+            <div class="price-summary">
+                <div class="price-row">
+                    <span>Subtotal</span>
+                    <span class="price">$80.9</span>
+                </div>
+                <div class="price-row">
+                    <span>Shipping</span>
+                    <span class="price">$12.9</span>
+                </div>
+                <div class="price-row total">
+                    <span>Total</span>
+                    <div class="total-price">
+                        <span class="currency">USD</span>
+                        <span class="price">$92.98</span>
+                    </div>
+                </div>
+            </div>
+
+            <button class="back-button">Back to Shopping</button>
+            <button class="continue-button">Continue to Finish</button>
+            
+            
+        </div>
+    </div>
+</body>
+</html>

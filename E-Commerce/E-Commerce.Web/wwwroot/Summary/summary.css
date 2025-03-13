@@ -1,0 +1,258 @@
+﻿* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f5f5f5;
+    padding: 20px;
+}
+
+.checkout-container {
+    display: flex;
+    max-width: 1200px;
+    margin: 40px auto;
+    gap: 20px;
+}
+
+@media (max-width: 768px) {
+    .checkout-container {
+        flex-direction: column;
+    }
+}
+
+/* Billing Address Section */
+.billing-section {
+    flex: 3;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+    .billing-section h2 {
+        color: #4d4d4d;
+        margin-bottom: 20px;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+    .form-group label {
+        color: #6d6d6d;
+        font-size: 14px;
+    }
+
+    .form-group input {
+        padding: 12px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        font-size: 16px;
+    }
+
+.form-row {
+    display: flex;
+    gap: 20px;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.half-width {
+    width: 50%;
+}
+
+.input-with-icon {
+    position: relative;
+}
+
+.check-icon {
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #4caf50;
+    font-weight: bold;
+}
+
+/* Cart Summary Section */
+.cart-summary-section {
+    flex: 2;
+    background-color: white;
+    border-radius: 5px;
+    padding: 20px;
+}
+
+.summary-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+    .summary-header h2 {
+        color: #4d4d4d;
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+.edit-link {
+    color: #007bff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.cart-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #f0f0f0;
+}
+
+.item-image {
+    position: relative;
+    margin-right: 15px;
+}
+
+    .item-image img {
+        width: 80px;
+        height: 80px;
+        object-fit: cover;
+        border-radius: 4px;
+    }
+
+.item-quantity {
+    position: absolute;
+    top: -5px;
+    right: -5px;
+    background-color: #007bff;
+    color: white;
+    width: 22px;
+    height: 22px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.item-details {
+    flex-grow: 1;
+}
+
+    .item-details h3 {
+        font-size: 16px;
+        margin-bottom: 5px;
+        color: #333;
+    }
+
+.item-sku {
+    color: #007bff;
+    font-size: 14px;
+}
+
+.item-price {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+.promo-section {
+    margin-bottom: 20px;
+}
+
+    .promo-section input {
+        width: 100%;
+        padding: 12px;
+        border: 1px solid #e0e0e0;
+        border-radius: 4px;
+        text-align: center;
+        color: #777;
+    }
+
+.price-summary {
+    margin-bottom: 20px;
+}
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+    color: #4d4d4d;
+}
+
+    .price-row.total {
+        font-weight: bold;
+        margin-top: 15px;
+        padding-top: 15px;
+        border-top: 1px solid #e0e0e0;
+    }
+
+.total-price {
+    display: flex;
+    align-items: baseline;
+    gap: 5px;
+}
+
+.currency {
+    color: #007bff;
+    font-size: 14px;
+}
+
+.price {
+    font-size: 16px;
+}
+
+.total .price {
+    font-size: 20px;
+}
+
+/* Continue Button */
+.continue-button, .back-button {
+   
+    width: calc(50% - 4px);
+    padding: 8px;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: background-color 0.3s;
+}
+.continue-button {
+    background-color: #007bff;
+}
+.back-button {
+    background-color: gray;
+}
+.continue-button:hover {
+    background-color: #0056b3;
+}
+.back-button:hover {
+    background-color: black;
+}
+
+.help-section {
+    color: #777;
+    font-size: 14px;
+    text-align: center;
+    margin-top: 10px;
+}

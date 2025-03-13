@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "xpUIg4GFx6vZfsUxEyHM3BpNTufE2Wt2HFzHMw1Wryg=",
+  "Hash": "2Mj9YcvF0I0ADCOBXTzxWIjcA/kURrtoWOxze+J6NXM=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -5391,6 +5391,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\shoppingCart\\ShoppingCart.css"
+    },
+    {
+      "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
+      "SourceId": "E-Commerce.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\",
+      "BasePath": "_content/E-Commerce.Web",
+      "RelativePath": "Summary/summary#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "0u4hn2vdn7",
+      "Integrity": "uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Summary\\summary.css"
     }
   ],
   "Endpoints": [
@@ -23683,6 +23704,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-Au79oeMWo3m1imecW9RPjUoT701b4baOAGuAjuj1nnY="
+        }
+      ]
+    },
+    {
+      "Route": "Summary/summary.0u4hn2vdn7.css",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 14:59:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0u4hn2vdn7"
+        },
+        {
+          "Name": "label",
+          "Value": "Summary/summary.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y="
+        }
+      ]
+    },
+    {
+      "Route": "Summary/summary.css",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 14:59:42 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y="
         }
       ]
     }

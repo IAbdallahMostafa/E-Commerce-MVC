@@ -2879,6 +2879,88 @@
       ]
     },
     {
+      "Route": "Summary/summary.0u4hn2vdn7.css",
+      "AssetFile": "Summary/summary.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 14:59:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "0u4hn2vdn7"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y="
+        },
+        {
+          "Name": "label",
+          "Value": "Summary/summary.css"
+        }
+      ]
+    },
+    {
+      "Route": "Summary/summary.css",
+      "AssetFile": "Summary/summary.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "3786"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 14:59:42 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y="
+        }
+      ]
+    },
+    {
       "Route": "css/adminlte.css",
       "AssetFile": "css/adminlte.css",
       "Selectors": [],

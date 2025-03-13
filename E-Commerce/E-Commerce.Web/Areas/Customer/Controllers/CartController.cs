@@ -66,5 +66,11 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             }
             return Json(new { success = false, message = "Item not found!" });
         }
+
+        [HttpGet]
+        public IActionResult Summary()
+        {
+            return View();
+        }
     }
 }

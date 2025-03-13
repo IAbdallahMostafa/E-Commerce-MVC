@@ -33,6 +33,10 @@
       "PackagePath": "staticwebassets\\Images\\Product\\f7dcfd11-f7a1-49e3-9fc6-eda2cf0de773.jpg"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
+      "PackagePath": "staticwebassets\\Summary\\summary.css"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\css\\adminlte.css",
       "PackagePath": "staticwebassets\\css\\adminlte.css"
     },
