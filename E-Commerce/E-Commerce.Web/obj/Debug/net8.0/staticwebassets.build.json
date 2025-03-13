@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "2Mj9YcvF0I0ADCOBXTzxWIjcA/kURrtoWOxze+J6NXM=",
+  "Hash": "0ri1oWEhRbaXQ+66uChrSBYEIr/q1NTgtIRCE7xphXU=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -5407,8 +5407,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "0u4hn2vdn7",
-      "Integrity": "uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=",
+      "Fingerprint": "iaby499gw4",
+      "Integrity": "qkW6ufk5F09330FMzP80BlZOpU+8f+E1JEHq7SZVfb8=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Summary\\summary.css"
@@ -8226,7 +8226,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 09:26:03 GMT"
+          "Value": "Thu, 13 Mar 2025 23:23:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8271,7 +8271,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 09:26:03 GMT"
+          "Value": "Thu, 13 Mar 2025 23:23:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8316,7 +8316,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 09:26:03 GMT"
+          "Value": "Thu, 13 Mar 2025 23:23:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -8353,7 +8353,7 @@
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 06 Mar 2025 09:26:03 GMT"
+          "Value": "Thu, 13 Mar 2025 23:23:58 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23708,51 +23708,6 @@
       ]
     },
     {
-      "Route": "Summary/summary.0u4hn2vdn7.css",
-      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "3786"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/css"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 14:59:42 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "0u4hn2vdn7"
-        },
-        {
-          "Name": "label",
-          "Value": "Summary/summary.css"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y="
-        }
-      ]
-    },
-    {
       "Route": "Summary/summary.css",
       "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
       "Selectors": [],
@@ -23763,7 +23718,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "3786"
+          "Value": "4343"
         },
         {
           "Name": "Content-Type",
@@ -23771,11 +23726,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y=\""
+          "Value": "\"qkW6ufk5F09330FMzP80BlZOpU+8f+E1JEHq7SZVfb8=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Thu, 13 Mar 2025 14:59:42 GMT"
+          "Value": "Thu, 13 Mar 2025 15:26:57 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -23785,7 +23740,52 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-uCGuVCE8LDdKw6KDRvCszVs9CGR8DHmPOfganHtZY4Y="
+          "Value": "sha256-qkW6ufk5F09330FMzP80BlZOpU+8f+E1JEHq7SZVfb8="
+        }
+      ]
+    },
+    {
+      "Route": "Summary/summary.iaby499gw4.css",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Summary\\summary.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "4343"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"qkW6ufk5F09330FMzP80BlZOpU+8f+E1JEHq7SZVfb8=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Thu, 13 Mar 2025 15:26:57 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "iaby499gw4"
+        },
+        {
+          "Name": "label",
+          "Value": "Summary/summary.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-qkW6ufk5F09330FMzP80BlZOpU+8f+E1JEHq7SZVfb8="
         }
       ]
     }

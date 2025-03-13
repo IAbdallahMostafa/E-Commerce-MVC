@@ -76,6 +76,10 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
             [Required]
             public string Name { get; set; }
             [Required]
+            public string PhoneNumber { get; set; }
+            [Required]
+            public string City { get; set; }
+            [Required]
             public string Address { get; set; }
             [Required]
             public int Age { get; set; }
@@ -138,24 +142,32 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
                 //Add Role
                 // if admin who is create the user, userRole not be null
                 var userRole = HttpContext.Request.Form["userRadio"].ToString();
-                if (userRole is not null)
+                var isAdmin = User.IsInRole(Roles.AdminRole);
+                if (isAdmin)
                 {
-                    if (userRole == string.Empty) // if not select role
+                    if (string.IsNullOrEmpty(userRole))
                     {
-                        ModelState.AddModelError(string.Empty, "Role selection is required!");
-                        return Page();
+                         ModelState.AddModelError(string.Empty, "Role selection is required!");
+                         return Page();
                     }
-                    await _userManager.AddToRoleAsync(user, userRole);
+                    else
+                    {
+                        await _userManager.AddToRoleAsync(user, userRole);
+                    }
                 }
                 else
                 {
                     await _userManager.AddToRoleAsync(user, Roles.CustomerRole);   // in case normal user (customer) who register will added with customer role 
                 }
+            
+                
 
 
                 await _userStore.SetUserNameAsync(user, Input.Email, CancellationToken.None);
                 await _emailStore.SetEmailAsync(user, Input.Email, CancellationToken.None);
                 user.Name = Input.Name;
+                user.PhoneNumber = Input.PhoneNumber;
+                user.City = Input.City;
                 user.Age = Input.Age;
                 user.Address = Input.Address;
 
@@ -189,7 +201,6 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
                         if (!userRole.IsNullOrEmpty())
                         {
                             return RedirectToAction("Index", "Users", new { area = "Admin" });
-
                         }
                         else
                         {

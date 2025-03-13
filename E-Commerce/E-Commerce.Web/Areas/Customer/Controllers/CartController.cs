@@ -16,16 +16,19 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index()
+        private string GetCurrentUserId()
         {
-            // get current user Id
             var claimsIdentity = (ClaimsIdentity)User.Identity!;
             var userId = claimsIdentity.FindFirst(ClaimTypes.NameIdentifier).Value;
-
+            return userId;
+        }
+        public IActionResult Index()
+        {
+            
 
             var shoppingCartVM = new ShoppingCartVM
             {
-                ShoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == userId, new[] { "Product" })
+                ShoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == GetCurrentUserId(), new[] { "Product" })
             };
             shoppingCartVM.TotalPrice = shoppingCartVM.ShoppingCarts.Select(e => e.Product.Price * e.Count).Sum();
             return View(shoppingCartVM);
@@ -70,7 +73,22 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         [HttpGet]
         public IActionResult Summary()
         {
-            return View();
+            SummaryVM summaryVM = new SummaryVM
+            {
+                ShoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == GetCurrentUserId(), new[] { "Product" }),
+                OrderHeader = new()
+            };
+            
+            summaryVM.OrderHeader.ApplicationUserId = GetCurrentUserId();
+            summaryVM.OrderHeader.ApplicationUser = _unitOfWork.Users.GetOne(e => e.Id == GetCurrentUserId());
+            summaryVM.OrderHeader.Name = summaryVM.OrderHeader.ApplicationUser.Name;
+            summaryVM.OrderHeader.PhoneNumber = summaryVM.OrderHeader.ApplicationUser.PhoneNumber;
+            summaryVM.OrderHeader.City = summaryVM.OrderHeader.ApplicationUser.City;
+            summaryVM.OrderHeader.Address = summaryVM.OrderHeader.ApplicationUser.Address;
+
+            summaryVM.OrderHeader.TotalPrice = summaryVM.ShoppingCarts.Select(e => e.Product.Price * e.Count).Sum();
+
+            return View(summaryVM);
         }
     }
 }

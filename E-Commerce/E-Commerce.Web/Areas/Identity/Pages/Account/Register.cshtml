@@ -16,6 +16,16 @@
                         <label asp-for="Input.Name">Name</label> 
                         <span asp-validation-for="Input.Name" class="text-danger"></span> 
                     </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.PhoneNumber" class="form-control" autocomplete="username" aria-required="true" placeholder="phone number" />
+                        <label asp-for="Input.PhoneNumber">Phone Number</label>
+                        <span asp-validation-for="Input.PhoneNumber" class="text-danger"></span>
+                    </div>
+                    <div class="form-floating mb-3">
+                        <input asp-for="Input.City" class="form-control" autocomplete="username" aria-required="true" placeholder="city" />
+                        <label asp-for="Input.City">City</label>
+                        <span asp-validation-for="Input.City" class="text-danger"></span>
+                    </div>
                     <div class="form-floating mb-3"> 
                         <input asp-for="Input.Address" class="form-control" autocomplete="username" aria-required="true" placeholder="address" /> 
                         <label asp-for="Input.Address">Address</label> 
