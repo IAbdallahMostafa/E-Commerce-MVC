@@ -1,4 +1,4 @@
-﻿
+﻿@model SummaryVM
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -13,34 +13,34 @@
         <div class="billing-section">
             <h2>Billing Address</h2>
             <div class="form-container">
-               
+
                 <div class="form-group full-width">
-                    <label for="name">Name</label>
-                    <input type="text" id="name" value="David Smith">
+                    <label asp-for="OrderHeader.Name">Name</label>
+                    <input asp-for="OrderHeader.Name">
                 </div>
 
                 <div class="form-group full-width">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" value="david.343@gmail.com">
+                    <label asp-for="OrderHeader.ApplicationUser.Email"></label>
+                    <input asp-for="OrderHeader.ApplicationUser.Email">
                 </div>
 
-                    
+
                 <div class="form-row">
                     <div class="form-group half-width">                        
-                        <label for="city">City</label>
-                        <input type="text" id="city" value="Cairo">
+                        <label asp-for="OrderHeader.City"></label>
+                        <input asp-for="OrderHeader.City">
                     </div>
 
                     <div class="form-group half-width">
-                        <label for="state">Phone Number</label>
-                        <input type="text" id="state" value="NY">
+                        <label asp-for="OrderHeader.PhoneNumber"></label>
+                        <input asp-for="OrderHeader.PhoneNumber">
 
-                        
+
                     </div>
                 </div>
                 <div class="form-group full-width">
-                    <label for="address">Address</label>
-                    <input type="text" id="address" value="123 s. Street">
+                    <label asp-for="OrderHeader.Address"></label>
+                    <input asp-for="OrderHeader.Address">
                 </div>
             </div>
         </div>
@@ -49,47 +49,49 @@
         <div class="cart-summary-section">
             <div class="summary-header">
                 <h2>Cart Summary</h2>
-                <a href="#" class="edit-link">Edit</a>
+                <a asp-controller="cart" asp-action="Index" class="edit-link">Edit</a>
             </div>
 
-            <div class="cart-item">
-                <div class="item-image">
-                    <img src="https://via.placeholder.com/100" alt="Coffee Cup">
-                    <span class="item-quantity">2</span>
+            @foreach (var cart in Model.ShoppingCarts)
+            {
+                <div class="cart-item">
+                    <div class="item-image">
+                        <img src=@($"{ConstantsFile.ProductsPath}/{cart.Product.Image}") alt="Coffee Cup">
+                        <span class="item-quantity">@cart.Count</span>
+                    </div>
+                    <div class="item-details">
+                        <h3>@cart.Product.Name</h3>
+                        <p class="item-sku">@cart.Product.Description</p>
+                    </div>
+                    <div class="item-price">@cart.Product.Price EGP</div>
                 </div>
-                <div class="item-details">
-                    <h3>BattleCreek Coffee</h3>
-                    <p class="item-sku">C-770</p>
-                </div>
-                <div class="item-price">$80.9</div>
-            </div>
+            }
 
-            <div class="promo-section">
-                <input type="text" placeholder="Gift Card or Promo Card">
-            </div>
+            @* <div class="promo-section"> *@
+            @*     <input type="text" placeholder="Gift Card or Promo Card"> *@
+            @* </div> *@
 
             <div class="price-summary">
                 <div class="price-row">
                     <span>Subtotal</span>
-                    <span class="price">$80.9</span>
+                    <span class="price">@Model.OrderHeader.TotalPrice</span>
                 </div>
-                <div class="price-row">
-                    <span>Shipping</span>
-                    <span class="price">$12.9</span>
-                </div>
+                @* <div class="price-row"> *@
+                @*     <span>Shipping</span> *@
+                @*     <span class="price">$12.9</span> *@
+                @* </div> *@
                 <div class="price-row total">
                     <span>Total</span>
                     <div class="total-price">
-                        <span class="currency">USD</span>
-                        <span class="price">$92.98</span>
+
+                        <span class="price">@Model.OrderHeader.TotalPrice EGP</span>
                     </div>
                 </div>
             </div>
 
-            <button class="back-button">Back to Shopping</button>
-            <button class="continue-button">Continue to Finish</button>
-            
-            
+            <a class="btn btn-secondary" style="width:calc(50% - 4px)" asp-controller="Home" asp-action="Index">Back to Shopping</a>
+            <a class="btn btn-primary" style="width:calc(50% - 4px)" asp-controller="#" asp-action="#">Back to Shopping</a>
+
         </div>
     </div>
 </body>

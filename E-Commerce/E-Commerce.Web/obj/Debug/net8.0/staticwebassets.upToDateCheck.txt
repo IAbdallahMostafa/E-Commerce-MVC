@@ -38,7 +38,10 @@ wwwroot\Images\Product\485399c3-2a9b-4e96-aa9c-53c7b7930f25.jpg
 wwwroot\Images\Product\57f23813-4ca6-4932-88d5-eed1fa9fad92.jpg
 wwwroot\Images\Product\67648cc7-0dcc-4dc3-9708-9a10c5782559.jpg
 wwwroot\Images\Product\75fdd439-66fd-42c2-8b73-91a5701f71d6.jpg
+wwwroot\Images\Product\99a8f5f6-d975-42b7-b7e1-0434a81f2232.jpg
 wwwroot\Images\Product\b1b7c59f-ce6f-47fd-a404-db0ee470dba5.jpg
+wwwroot\Images\Product\cd394c0f-79fd-47a8-b578-9d7cfe807871.jpg
+wwwroot\Images\Product\f3fa899a-0d30-4a1d-8717-fe4799f8bab6.jpg
 wwwroot\Images\Product\f7dcfd11-f7a1-49e3-9fc6-eda2cf0de773.jpg
 wwwroot\img\AdminLTELogo.png
 wwwroot\img\avatar.png

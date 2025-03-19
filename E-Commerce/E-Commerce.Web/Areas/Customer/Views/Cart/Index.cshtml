@@ -77,7 +77,7 @@
 								@* <div class="summary-item"><span class="text">Discount</span><span class="price">$0</span></div> *@
 								@* <div class="summary-item"><span class="text">Shipping</span><span class="price">$0</span></div> *@
 								<div class="summary-item"><span class="text">Total</span><span class="price">@Model.TotalPrice EGP</span></div> 
-								<button type="button" class="btn btn-primary btn-lg btn-block">Checkout</button>
+								<a type="button" class="btn btn-primary btn-lg btn-block" asp-controller="Cart" asp-action="Summary" >Checkout</a>
 							</div>
 						</div>
 					</div>
