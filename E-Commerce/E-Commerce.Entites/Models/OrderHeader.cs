@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Mvc.ModelBinding;
 using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -12,6 +13,8 @@ namespace E_Commerce.Entites.Models
     public class OrderHeader
     {
         public int Id { get; set; }
+
+        [ForeignKey(nameof(ApplicationUser))]
         public string ApplicationUserId { get; set; } = string.Empty;
         
         [ValidateNever]

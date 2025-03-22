@@ -4,6 +4,7 @@ using E_Commerce.Web.ViewModels.ShoppingCarts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Utilities;
 
 namespace E_Commerce.Web.Areas.Customer.Controllers
 {
@@ -90,5 +91,28 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
 
             return View(summaryVM);
         }
+
+        // when click "Place Order"
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult Summary(SummaryVM summaryVM)
+        {
+            
+            summaryVM.ShoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == GetCurrentUserId(), new[] { "Product" });
+            summaryVM.OrderHeader.ApplicationUserId = GetCurrentUserId();
+            summaryVM.OrderHeader.ApplicationUser = _unitOfWork.Users.GetOne(e => e.Id == GetCurrentUserId());
+
+            summaryVM.OrderHeader.OrderStatus = OrderStauts.Pending;
+            summaryVM.OrderHeader.PaymentStatus = OrderStauts.Pending;
+            summaryVM.OrderHeader.PaymenteDate = DateTime.Now;
+            summaryVM.OrderHeader.TotalPrice = summaryVM.ShoppingCarts.Select(e => e.Product.Price * e.Count).Sum();
+
+            _unitOfWork.OrderHeaders.Add(summaryVM.OrderHeader);
+            _unitOfWork.Complete();
+
+            TempData["OrderPlaced"] = "Order Placed Successfully";
+            return RedirectToAction("Index", "Home");
+        }
+
     }
 }
