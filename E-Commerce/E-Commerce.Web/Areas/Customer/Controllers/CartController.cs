@@ -110,6 +110,22 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             _unitOfWork.OrderHeaders.Add(summaryVM.OrderHeader);
             _unitOfWork.Complete();
 
+
+            foreach (var product in  summaryVM.ShoppingCarts)
+            {
+                OrderDetails orderDetails = new OrderDetails()
+                {
+                    OrderId = summaryVM.OrderHeader.Id,
+                    ProductId = product.ProductId,
+                    Count = product.Count,
+                    Price = product.Product.Price
+                };
+                _unitOfWork.OrderDetails.Add(orderDetails);
+            }
+
+            _unitOfWork.Complete();
+
+            
             TempData["OrderPlaced"] = "Order Placed Successfully";
             return RedirectToAction("Index", "Home");
         }
