@@ -7,6 +7,7 @@ using Microsoft.EntityFrameworkCore;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Utilities;
+using Stripe;
 
 namespace E_Commerce.Web
 {
@@ -40,6 +41,8 @@ namespace E_Commerce.Web
             // Register Mapper
             builder.Services.AddAutoMapper(typeof(MappingProfile));
 
+            // Stripe
+            builder.Services.Configure<StripeData>(builder.Configuration.GetSection("Stripe")); // Properties in clss must have the same name of keys in appsettings.json
 
             var app = builder.Build();
 
@@ -55,6 +58,10 @@ namespace E_Commerce.Web
             app.UseStaticFiles();
 
             app.UseRouting();
+
+            // Stripe 
+            StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
+
 
             app.UseAuthorization();
             app.MapRazorPages();

@@ -3,6 +3,7 @@ using E_Commerce.Entites.Models;
 using E_Commerce.Web.ViewModels.ShoppingCarts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Stripe.Checkout;
 using System.Security.Claims;
 using Utilities;
 
@@ -25,8 +26,6 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         }
         public IActionResult Index()
         {
-            
-
             var shoppingCartVM = new ShoppingCartVM
             {
                 ShoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == GetCurrentUserId(), new[] { "Product" })
@@ -98,6 +97,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         public IActionResult Summary(SummaryVM summaryVM)
         {
             
+            // Save OrderHeader Data
             summaryVM.ShoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == GetCurrentUserId(), new[] { "Product" });
             summaryVM.OrderHeader.ApplicationUserId = GetCurrentUserId();
             summaryVM.OrderHeader.ApplicationUser = _unitOfWork.Users.GetOne(e => e.Id == GetCurrentUserId());
@@ -111,6 +111,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             _unitOfWork.Complete();
 
 
+            // Save OrderDetails Data
             foreach (var product in  summaryVM.ShoppingCarts)
             {
                 OrderDetails orderDetails = new OrderDetails()
@@ -122,13 +123,47 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
                 };
                 _unitOfWork.OrderDetails.Add(orderDetails);
             }
+            _unitOfWork.Complete();
+
+
+            // Stripe
+            var domaion = "https://localhost:7204/";
+            var options = new SessionCreateOptions
+            {
+                LineItems = new List<SessionLineItemOptions>(),
+                Mode = "payment",
+                SuccessUrl = domaion + $"Customer/Cart/OrderConfirmation?session_id={summaryVM.OrderHeader.Id}",
+                CancelUrl = domaion + "Customer/Cart/Index"
+            };
+
+            foreach (var item in summaryVM.ShoppingCarts)
+            {
+                var sessionLineOption = new SessionLineItemOptions
+                {
+                    PriceData = new SessionLineItemPriceDataOptions
+                    {
+                        UnitAmount = (long)(item.Product.Price * 100),
+                        Currency = "usd",
+                        ProductData = new SessionLineItemPriceDataProductDataOptions
+                        {
+                            Name = item.Product.Name
+                        }
+                    },
+                    Quantity = item.Count
+                };
+                options.LineItems.Add(sessionLineOption);
+            }
+
+            var service = new SessionService();
+            Session session = service.Create(options);
+            summaryVM.OrderHeader.SessionId = session.Id;
 
             _unitOfWork.Complete();
 
-            
-            TempData["OrderPlaced"] = "Order Placed Successfully";
-            return RedirectToAction("Index", "Home");
+            Response.Headers.Add("Location", session.Url);
+            return new StatusCodeResult(303);
         }
+
 
     }
 }

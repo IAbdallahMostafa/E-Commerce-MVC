@@ -378,7 +378,6 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.Visua
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Templating.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Microsoft.Win32.SystemEvents.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Mono.TextTemplating.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Newtonsoft.Json.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Newtonsoft.Json.Bson.dll
@@ -403,7 +402,6 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Composit
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Composition.TypedParts.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Configuration.ConfigurationManager.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Drawing.Common.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Formats.Asn1.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.IdentityModel.Tokens.Jwt.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.IO.Pipelines.dll
@@ -413,10 +411,8 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Runtime.
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Security.Cryptography.Pkcs.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Security.Cryptography.ProtectedData.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Security.Cryptography.Xml.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Security.Permissions.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Text.Encodings.Web.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Text.Json.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\System.Windows.Extensions.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\af\Humanizer.resources.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\ar\Humanizer.resources.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\az\Humanizer.resources.dll
@@ -575,7 +571,6 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-ar
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\Microsoft.Win32.SystemEvents.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\browser-wasm\nativeassets\net8.0\e_sqlite3.a
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\linux-arm\native\libe_sqlite3.so
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\linux-arm64\native\libe_sqlite3.so
@@ -596,12 +591,9 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-ar
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-arm64\native\e_sqlite3.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-x64\native\e_sqlite3.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win-x86\native\e_sqlite3.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Drawing.Common.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net8.0\System.Security.Cryptography.Pkcs.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Security.Cryptography.ProtectedData.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
-E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\runtimes\win\lib\net7.0\System.Windows.Extensions.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.DataAccess.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Entities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\E-Commerce.Utilities.dll
@@ -627,3 +619,4 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\refint\E-Commer
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.genruntimeconfig.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\ref\E-Commerce.Web.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\Stripe.net.dll
