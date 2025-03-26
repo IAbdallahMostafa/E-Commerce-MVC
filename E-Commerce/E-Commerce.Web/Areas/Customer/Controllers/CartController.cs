@@ -132,7 +132,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 LineItems = new List<SessionLineItemOptions>(),
                 Mode = "payment",
-                SuccessUrl = domaion + $"Customer/Cart/OrderConfirmation?session_id={summaryVM.OrderHeader.Id}",
+                SuccessUrl = domaion + $"Customer/Cart/OrderConfirmation?id={summaryVM.OrderHeader.Id}",
                 CancelUrl = domaion + "Customer/Cart/Index"
             };
 
@@ -143,7 +143,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
                     PriceData = new SessionLineItemPriceDataOptions
                     {
                         UnitAmount = (long)(item.Product.Price * 100),
-                        Currency = "usd",
+                        Currency = "egp",
                         ProductData = new SessionLineItemPriceDataProductDataOptions
                         {
                             Name = item.Product.Name
@@ -157,11 +157,29 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             var service = new SessionService();
             Session session = service.Create(options);
             summaryVM.OrderHeader.SessionId = session.Id;
-
+            
             _unitOfWork.Complete();
 
             Response.Headers.Add("Location", session.Url);
             return new StatusCodeResult(303);
+        }
+
+        public IActionResult OrderConfirmation(int id)
+        {
+            OrderHeader orderHeader = _unitOfWork.OrderHeaders.GetOne(e => e.Id == id);
+            var service = new SessionService();
+            Session session = service.Get(orderHeader.SessionId);
+
+            if (session.PaymentStatus == "paid")
+            {
+                _unitOfWork.OrderHeaders.UpdateOrderStatus(id, OrderStauts.Approved, OrderStauts.Approved);
+                orderHeader.PaymentIntentId = session.PaymentIntentId;
+                _unitOfWork.Complete();
+            }
+            List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
+            _unitOfWork.ShoppingCarts.DeleteRange(shoppingCarts);
+            _unitOfWork.Complete();
+            return RedirectToAction("Index");
         }
 
 
