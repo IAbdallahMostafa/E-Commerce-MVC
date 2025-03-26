@@ -157,7 +157,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             var service = new SessionService();
             Session session = service.Create(options);
             summaryVM.OrderHeader.SessionId = session.Id;
-            
+            summaryVM.OrderHeader.PaymentIntentId = session.PaymentIntentId;
             _unitOfWork.Complete();
 
             Response.Headers.Add("Location", session.Url);
@@ -173,13 +173,14 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             if (session.PaymentStatus == "paid")
             {
                 _unitOfWork.OrderHeaders.UpdateOrderStatus(id, OrderStauts.Approved, OrderStauts.Approved);
-                orderHeader.PaymentIntentId = session.PaymentIntentId;
                 _unitOfWork.Complete();
             }
+
+            // Remove From Shopping Cart Table after user confirm order
             List<ShoppingCart> shoppingCarts = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == orderHeader.ApplicationUserId).ToList();
             _unitOfWork.ShoppingCarts.DeleteRange(shoppingCarts);
             _unitOfWork.Complete();
-            return RedirectToAction("Index");
+            return View(id);
         }
 
 
