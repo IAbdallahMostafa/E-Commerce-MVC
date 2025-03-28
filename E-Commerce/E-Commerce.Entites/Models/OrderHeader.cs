@@ -1,14 +1,8 @@
-﻿using E_Commerce.Entities.Models;
-using Microsoft.AspNetCore.Mvc.ModelBinding;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
-using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 
-namespace E_Commerce.Entites.Models
+using System.ComponentModel.DataAnnotations.Schema;
+
+namespace E_Commerce.Entities.Models
 {
     public class OrderHeader
     {

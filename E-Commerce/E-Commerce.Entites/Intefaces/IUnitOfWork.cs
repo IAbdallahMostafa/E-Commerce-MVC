@@ -1,4 +1,4 @@
-﻿using E_Commerce.Entites.Interfaces;
+﻿using E_Commerce.Entities.Intefaces;
 
 namespace E_Commerce.Entites.Intefaces
 {

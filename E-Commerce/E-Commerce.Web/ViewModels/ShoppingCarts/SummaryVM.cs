@@ -1,4 +1,5 @@
 ﻿using E_Commerce.Entites.Models;
+using E_Commerce.Entities.Models;
 
 namespace E_Commerce.Web.ViewModels.ShoppingCarts
 {

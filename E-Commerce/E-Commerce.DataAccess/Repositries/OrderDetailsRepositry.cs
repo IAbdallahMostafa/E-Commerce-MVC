@@ -1,6 +1,6 @@
 ﻿using E_Commerce.DataAccess.Data;
-using E_Commerce.Entites.Intefaces;
-using E_Commerce.Entites.Models;
+using E_Commerce.Entities.Intefaces;
+using E_Commerce.Entities.Models;
 
 namespace E_Commerce.DataAccess.Repositries
 {

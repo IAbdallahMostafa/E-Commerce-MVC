@@ -1,5 +1,6 @@
 ﻿using E_Commerce.Entites.Intefaces;
 using E_Commerce.Entites.Models;
+using E_Commerce.Entities.Models;
 using E_Commerce.Web.ViewModels.ShoppingCarts;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
@@ -104,7 +105,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
 
             summaryVM.OrderHeader.OrderStatus = OrderStauts.Pending;
             summaryVM.OrderHeader.PaymentStatus = OrderStauts.Pending;
-            summaryVM.OrderHeader.PaymenteDate = DateTime.Now;
+            summaryVM.OrderHeader.OrderDate = DateTime.Now;
             summaryVM.OrderHeader.TotalPrice = summaryVM.ShoppingCarts.Select(e => e.Product.Price * e.Count).Sum();
 
             _unitOfWork.OrderHeaders.Add(summaryVM.OrderHeader);
@@ -173,6 +174,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             if (session.PaymentStatus == "paid")
             {
                 _unitOfWork.OrderHeaders.UpdateOrderStatus(id, OrderStauts.Approved, OrderStauts.Approved);
+                orderHeader.PaymenteDate = DateTime.Now;
                 _unitOfWork.Complete();
             }
 

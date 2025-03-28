@@ -2,34 +2,50 @@
 $(document).ready(function () {
     loadData();
 });
+
 function loadData() {
-    datatable = $('#productsTable').DataTable({
+    datatable = $('#ordersTable').DataTable({
         "ajax": {
-            "url": "/admin/product/GetAll"
+            "url": "/admin/order/GetAll"
         },
         "columns": [
-            { "data": "name" },
-            { "data": "description" },
-            { "data": "price" },
-            { "data": "category.name" },
+            { "data": "id", "className": "text-center" },
+            { "data": "name", "className": "text-center" },
+            { "data": "phoneNumber", "className": "text-center" },
             {
-                "data": "image",
+                "data": "orderDate",
+                "className": "text-center",
                 "render": function (data) {
-                    return `<img src="/Images/Product/${data}" alt="Product Image" width="50" height="50"/>`;
+                    return formatDate(data);
                 }
             },
+            { "data": "orderStatus", "className": "text-center" },
+            { "data": "totalPrice", "className": "text-center" },
             {
                 "data": "id",
+                "className": "text-center",
                 "render": function (data) {
                     return ` 
-                            <a href="/Admin/Product/Edit/${data}" class="btn btn-success" style="cursor:pointer;">Edit</a> 
-                             <a onClick=DeleteItem('/Admin/Product/Delete/${data}') class="btn btn-danger" style="cursor:pointer;">Delete</a>
+                            <a href="/Admin/Order/Details?orderid=${data}" class="btn btn-success" style="cursor:pointer;">Details</a> 
                             `;
                 }
-            }, 
-            
+            }
         ]
     });
+}
+
+function formatDate(dateString) {
+    var options = { 
+        day: '2-digit', 
+        month: '2-digit', 
+        year: 'numeric', 
+        hour: '2-digit', 
+        minute: '2-digit', 
+        second: '2-digit', 
+        hour12: true 
+    };
+    var date = new Date(dateString);
+    return date.toLocaleString('en-GB', options).replace(',', ' |');
 }
 
 function DeleteItem(url) {
@@ -55,7 +71,6 @@ function DeleteItem(url) {
                     }
                 }
             });
-           
         }
     });
 }

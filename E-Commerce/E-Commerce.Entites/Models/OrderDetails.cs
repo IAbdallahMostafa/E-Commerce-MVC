@@ -1,8 +1,7 @@
-﻿using E_Commerce.Entities.Models;
-using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
 using System.ComponentModel.DataAnnotations.Schema;
 
-namespace E_Commerce.Entites.Models
+namespace E_Commerce.Entities.Models
 {
     public class OrderDetails
     {

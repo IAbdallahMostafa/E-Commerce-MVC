@@ -87,6 +87,7 @@ wwwroot\js\categories.js
 wwwroot\js\datatable.js
 wwwroot\js\demo.js
 wwwroot\js\filesize-validator.js
+wwwroot\js\orders.js
 wwwroot\js\pages\dashboard.js
 wwwroot\js\pages\dashboard2.js
 wwwroot\js\pages\dashboard3.js
