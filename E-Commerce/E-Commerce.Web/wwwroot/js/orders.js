@@ -26,7 +26,7 @@ function loadData() {
                 "className": "text-center",
                 "render": function (data) {
                     return ` 
-                            <a href="/Admin/Order/Details?orderid=${data}" class="btn btn-success" style="cursor:pointer;">Details</a> 
+                            <a href="/Admin/Order/Details/${data}" class="btn btn-warning" style="cursor:pointer;">Details</a> 
                             `;
                 }
             }
