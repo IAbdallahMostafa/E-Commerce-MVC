@@ -158,7 +158,6 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             var service = new SessionService();
             Session session = service.Create(options);
             summaryVM.OrderHeader.SessionId = session.Id;
-            summaryVM.OrderHeader.PaymentIntentId = session.PaymentIntentId;
             _unitOfWork.Complete();
 
             Response.Headers.Add("Location", session.Url);
@@ -175,6 +174,8 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 _unitOfWork.OrderHeaders.UpdateOrderStatus(id, OrderStauts.Approved, OrderStauts.Approved);
                 orderHeader.PaymenteDate = DateTime.Now;
+                orderHeader.PaymentIntentId = session.PaymentIntentId;
+
                 _unitOfWork.Complete();
             }
 

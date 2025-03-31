@@ -9767,6 +9767,51 @@
       ]
     },
     {
+      "Route": "js/orders.g4uudwn3qg.js",
+      "AssetFile": "js/orders.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:01:18 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4uudwn3qg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI="
+        },
+        {
+          "Name": "label",
+          "Value": "js/orders.js"
+        }
+      ]
+    },
+    {
       "Route": "js/orders.js",
       "AssetFile": "js/orders.js",
       "Selectors": [],
@@ -9781,7 +9826,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2358"
+          "Value": "2350"
         },
         {
           "Name": "Content-Type",
@@ -9789,62 +9834,17 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q=\""
+          "Value": "\"ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:35:53 GMT"
+          "Value": "Fri, 28 Mar 2025 02:01:18 GMT"
         }
       ],
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q="
-        }
-      ]
-    },
-    {
-      "Route": "js/orders.pbbxq46iha.js",
-      "AssetFile": "js/orders.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2358"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:35:53 GMT"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pbbxq46iha"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q="
-        },
-        {
-          "Name": "label",
-          "Value": "js/orders.js"
+          "Value": "sha256-ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI="
         }
       ]
     },

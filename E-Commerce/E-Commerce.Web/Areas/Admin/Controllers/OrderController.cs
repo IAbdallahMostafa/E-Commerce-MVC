@@ -34,6 +34,9 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
                 OrderDetails = _unitOfWork.OrderDetails.GetAll(o => o.OrderId == id, new[] { "Product" })
             };
 
+            if (orderVM.OrderHeader == null) 
+                return NotFound("There No Order Found");
+
             return View(orderVM);
         }
 

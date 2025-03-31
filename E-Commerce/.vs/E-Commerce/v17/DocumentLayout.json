@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\customer\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\views\\order\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\customer\\views\\cart\\summary.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\customer\\views\\cart\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\controllers\\ordercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,42 +37,59 @@
               "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "CartController.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "RelativeToolTip": "E-Commerce.Web\\Areas\\Customer\\Controllers\\CartController.cs",
-              "ViewState": "AgIAAKQAAAAAAAAAAAAYwLAAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T01:42:13.95Z",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "RelativeToolTip": "E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Index.cshtml",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwB8AAAB1AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T01:08:51.42Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Index.cshtml",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Index.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAgAAAAAAAAAA==",
+              "Title": "Summary.cshtml",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "RelativeToolTip": "E-Commerce.Web\\Areas\\Customer\\Views\\Cart\\Summary.cshtml",
+              "ViewState": "AgIAAC4AAAAAAAAAAAAAAC4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-28T00:59:13.848Z",
+              "WhenOpened": "2025-03-31T01:08:35.238Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
+              "ViewState": "AgIAAHkAAAAAAAAAAAAAAIIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-03-31T00:21:36.595Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "OrderController.cs",
               "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
               "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAuwBQAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAQwCwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-28T00:47:39.972Z",
+              "WhenOpened": "2025-03-31T00:04:50.449Z",
               "EditorCaption": ""
             }
           ]

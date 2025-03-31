@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Xr/S/TxvkB5mgc8DCBKcTbBNO8hT+QDaUuXEZ1mJ/3w=",
+  "Hash": "E8eREbaZlKqI6fNY/bn8sY/lSnIspHwDFzY1oXl+KWg=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -3202,8 +3202,8 @@
       "RelatedAsset": "",
       "AssetTraitName": "",
       "AssetTraitValue": "",
-      "Fingerprint": "pbbxq46iha",
-      "Integrity": "a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q=",
+      "Fingerprint": "g4uudwn3qg",
+      "Integrity": "ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI=",
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\js\\orders.js"
@@ -15224,6 +15224,51 @@
       ]
     },
     {
+      "Route": "js/orders.g4uudwn3qg.js",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\orders.js",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "2350"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/javascript"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 28 Mar 2025 02:01:18 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4uudwn3qg"
+        },
+        {
+          "Name": "label",
+          "Value": "js/orders.js"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI="
+        }
+      ]
+    },
+    {
       "Route": "js/orders.js",
       "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\orders.js",
       "Selectors": [],
@@ -15234,7 +15279,7 @@
         },
         {
           "Name": "Content-Length",
-          "Value": "2358"
+          "Value": "2350"
         },
         {
           "Name": "Content-Type",
@@ -15242,11 +15287,11 @@
         },
         {
           "Name": "ETag",
-          "Value": "\"a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q=\""
+          "Value": "\"ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI=\""
         },
         {
           "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:35:53 GMT"
+          "Value": "Fri, 28 Mar 2025 02:01:18 GMT"
         },
         {
           "Name": "Cache-Control",
@@ -15256,52 +15301,7 @@
       "EndpointProperties": [
         {
           "Name": "integrity",
-          "Value": "sha256-a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q="
-        }
-      ]
-    },
-    {
-      "Route": "js/orders.pbbxq46iha.js",
-      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\js\\orders.js",
-      "Selectors": [],
-      "ResponseHeaders": [
-        {
-          "Name": "Accept-Ranges",
-          "Value": "bytes"
-        },
-        {
-          "Name": "Content-Length",
-          "Value": "2358"
-        },
-        {
-          "Name": "Content-Type",
-          "Value": "text/javascript"
-        },
-        {
-          "Name": "ETag",
-          "Value": "\"a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q=\""
-        },
-        {
-          "Name": "Last-Modified",
-          "Value": "Fri, 28 Mar 2025 01:35:53 GMT"
-        },
-        {
-          "Name": "Cache-Control",
-          "Value": "max-age=31536000, immutable"
-        }
-      ],
-      "EndpointProperties": [
-        {
-          "Name": "fingerprint",
-          "Value": "pbbxq46iha"
-        },
-        {
-          "Name": "label",
-          "Value": "js/orders.js"
-        },
-        {
-          "Name": "integrity",
-          "Value": "sha256-a37/tdFEsCu/24worDfK0IXEHl80+cbl68g2kfbta+Q="
+          "Value": "sha256-ANH2vAnEKlECAo0WnRG6DRPI4AgYMlHUGZ3Btgl/BFI="
         }
       ]
     },
