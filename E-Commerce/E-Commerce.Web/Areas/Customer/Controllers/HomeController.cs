@@ -61,7 +61,7 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             }
 
             _unitOfWork.Complete();
-            TempData["CartAdded"] = "Item Added To Shopping Cart Successfully";
+            TempData["Create"] = "Item Added To Shopping Cart Successfully";
             return RedirectToAction("Index", "Home");
         }
     }

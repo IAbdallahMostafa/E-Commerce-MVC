@@ -2,6 +2,7 @@
 using E_Commerce.Web.ViewModels.Orders;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Stripe;
 using Utilities;
 
 namespace E_Commerce.Web.Areas.Admin.Controllers
@@ -68,7 +69,7 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
                 orderHeader.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
                
             _unitOfWork.Complete();
-            TempData["UpdateOrderDetails"] = "Order Details Updated Successfully";
+            TempData["Edit"] = "Order Details Updated Successfully";
             return RedirectToAction("Index");
         }
 
@@ -84,7 +85,7 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
             _unitOfWork.OrderHeaders.UpdateOrderStatus(orderHeader.Id, OrderStauts.Processing, null);
             _unitOfWork.Complete();
 
-            TempData["StartProcessOrder"] = "Order Status Updated To Proccessing";
+            TempData["Edit"] = "Order Status Updated To Proccessing";
             return RedirectToAction("Details", new {id = OrderVM.OrderHeader.Id});
         }
 
@@ -104,11 +105,49 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
             _unitOfWork.OrderHeaders.UpdateOrderStatus(orderHeader.Id, OrderStauts.Shipped, null);
             orderHeader.Carrier = OrderVM.OrderHeader.Carrier;
             orderHeader.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
+            orderHeader.ShippingDate = DateTime.Now;
 
             _unitOfWork.Complete();
 
-            TempData["StartShipOrder"] = "Order Status Updated To Shipping";
+            TempData["Edit"] = "Order Status Updated To Shipping";
             return RedirectToAction("Details", new { id = OrderVM.OrderHeader.Id });
         }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult CancelOrder()
+        {
+            var orderHeader = _unitOfWork.OrderHeaders.GetOne(e => e.Id == OrderVM.OrderHeader.Id);
+
+            if (orderHeader == null)
+                return NotFound("There No Order Found");
+
+            // if order paied, refund the money 
+            if (orderHeader.OrderStatus != OrderStauts.Pending)
+            {
+                var option = new RefundCreateOptions
+                {
+                    Reason = RefundReasons.RequestedByCustomer,
+                    PaymentIntent = orderHeader.PaymentIntentId
+                };
+
+                var service = new RefundService();
+                Refund refund = service.Create(option);
+
+                _unitOfWork.OrderHeaders.UpdateOrderStatus(orderHeader.Id, OrderStauts.Cancelled, OrderStauts.Refund);
+
+                TempData["Edit"] = "Order Status Updated To Cancelled and Payment Refund";
+            }
+            else
+            {
+                _unitOfWork.OrderHeaders.UpdateOrderStatus(orderHeader.Id, OrderStauts.Cancelled, OrderStauts.Cancelled);
+                TempData["Edit"] = "Order Status Updated To Cancelled";
+            }
+
+            _unitOfWork.Complete();
+;
+            return RedirectToAction("Details", new { id = OrderVM.OrderHeader.Id });
+        }
+
     }
 }
