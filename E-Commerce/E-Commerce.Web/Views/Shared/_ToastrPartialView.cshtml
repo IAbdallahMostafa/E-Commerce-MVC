@@ -36,3 +36,11 @@
         toastr["success"]("@TempData["OrderPlaced"]")
     </script>
 }
+
+@if(TempData["UpdateOrderDetails"] != null)
+{
+    <script type="text/javascript">
+        toastr["success"]("@TempData["UpdateOrderDetails"]")
+    </script>
+
+}

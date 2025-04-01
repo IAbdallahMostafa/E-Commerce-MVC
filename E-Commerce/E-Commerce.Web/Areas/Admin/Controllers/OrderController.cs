@@ -10,6 +10,11 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
     public class OrderController : Controller
     {
         private readonly IUnitOfWork _unitOfWork;
+
+        // to bind ordervm
+        [BindProperty]
+        public OrderVM OrderVM { get; set; }
+        
         public OrderController(IUnitOfWork unitOfWork)
         {
             _unitOfWork = unitOfWork;
@@ -38,6 +43,32 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
                 return NotFound("There No Order Found");
 
             return View(orderVM);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult UpdateOrderDetails()
+        {
+            
+            var orderHeader = _unitOfWork.OrderHeaders.GetOne(e => e.Id == OrderVM.OrderHeader.Id);
+
+            if (orderHeader == null)
+                return NotFound("There No Order Found");
+
+            orderHeader.Name = OrderVM.OrderHeader.Name;
+            orderHeader.PhoneNumber = OrderVM.OrderHeader.PhoneNumber;
+            orderHeader.City = OrderVM.OrderHeader.City;
+            orderHeader.Address = OrderVM.OrderHeader.Address;
+
+            if (OrderVM.OrderHeader.Carrier != null)
+                orderHeader.Carrier = OrderVM.OrderHeader.Carrier;
+            
+            if (OrderVM.OrderHeader.TrackingNumber != null)
+                orderHeader.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
+               
+            _unitOfWork.Complete();
+            TempData["UpdateOrderDetails"] = "Order Details Updated Successfully";
+            return RedirectToAction("Index");
         }
 
     }

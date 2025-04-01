@@ -7,7 +7,7 @@
 <form method="post">
 	<div class="container">
 		<div>
-			<input hidden asp-for="OrderHeader.Id" />
+		    <input hidden asp-for="OrderHeader.Id" />
 			<div class="container rounded p-2">
 				<div class="row">
 					<div class="col-12 col-lg-6 pb-4">
@@ -108,7 +108,15 @@
 						<div class="row my-1">
 							<div class="col-3">Payment Status</div>
 							<div class="col-9">
-								<input type="text" asp-for="OrderHeader.PaymentStatus" class="form-control" />
+								<select asp-for="OrderHeader.PaymentStatus" class="form-control">
+									<option value="@Utilities.OrderStauts.Pending">@Utilities.OrderStauts.Pending</option>
+									<option value="@Utilities.OrderStauts.Approved">@Utilities.OrderStauts.Approved</option>
+									<option value="@Utilities.OrderStauts.Processing">@Utilities.OrderStauts.Processing</option>
+									<option value="@Utilities.OrderStauts.Shipped">@Utilities.OrderStauts.Shipped</option>
+									<option value="@Utilities.OrderStauts.Cancelled">@Utilities.OrderStauts.Cancelled</option>
+									<option value="@Utilities.OrderStauts.Refund">@Utilities.OrderStauts.Refund</option>
+									<option value="@Utilities.OrderStauts.Rejected">@Utilities.OrderStauts.Rejected</option>
+								</select>
 							</div>
 						</div>
 						<input type="submit" asp-action="UpdateOrderDetails" class="btn btn-primary form-control my-1" value="Update Pickup Details" />
