@@ -620,3 +620,5 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\refint\E-Commer
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\E-Commerce.Web.genruntimeconfig.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\obj\Debug\net8.0\ref\E-Commerce.Web.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\X.PagedList.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.Web\bin\Debug\net8.0\X.PagedList.Mvc.Core.dll

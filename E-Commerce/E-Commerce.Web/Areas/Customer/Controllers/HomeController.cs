@@ -5,6 +5,7 @@ using E_Commerce.Web.ViewModels.Customer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using X.PagedList.Extensions;
 
 namespace E_Commerce.Web.Areas.Customer.Controllers
 {
@@ -16,9 +17,13 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
         {
             _unitOfWork = unitOfWork;
         }
-        public IActionResult Index()
+        public IActionResult Index(int? page)
         {
-            IEnumerable<Product> products = _unitOfWork.Products.GetAll();
+            // to paginate the products
+            int pageNumber = page ?? 1;
+            int pageSize = 8;
+
+            IEnumerable<Product> products = _unitOfWork.Products.GetAll().ToPagedList(pageNumber, pageSize);
             return View(products);
         }
 

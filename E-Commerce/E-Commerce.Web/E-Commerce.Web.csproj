@@ -30,6 +30,7 @@
     <PackageReference Include="Microsoft.Extensions.Configuration.Json" Version="9.0.2" />
     <PackageReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Design" Version="8.0.7" />
     <PackageReference Include="Stripe.net" Version="47.4.0" />
+    <PackageReference Include="X.PagedList.Mvc.Core" Version="10.5.7" />
   </ItemGroup>
 
   <ItemGroup>

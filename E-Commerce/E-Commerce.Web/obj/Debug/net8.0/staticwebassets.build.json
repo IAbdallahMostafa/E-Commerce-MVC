@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "BrpDkM7GuURcy2lizeJKx4Lf74qpiudbea22lMjkifQ=",
+  "Hash": "yGMguRHkYfTRFAt+wsZ8DtxRYTFv/9I+XswAxozpTeU=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -2094,6 +2094,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Images\\Product\\485399c3-2a9b-4e96-aa9c-53c7b7930f25.jpg"
+    },
+    {
+      "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\4f5542fb-419f-4913-9116-e5fd4848da1d.jpg",
+      "SourceId": "E-Commerce.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\",
+      "BasePath": "_content/E-Commerce.Web",
+      "RelativePath": "Images/Product/4f5542fb-419f-4913-9116-e5fd4848da1d#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "ok7f7y07az",
+      "Integrity": "GMORn7UOYNMf0htt5EQeKf+csRM01uklZG3hkO6MXIY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Images\\Product\\4f5542fb-419f-4913-9116-e5fd4848da1d.jpg"
     },
     {
       "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\57f23813-4ca6-4932-88d5-eed1fa9fad92.jpg",
@@ -10956,6 +10977,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-e+vYNO+ar5iTzQf/WVVnGaej/u0rZvKRI5uNg0WH0fU="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Product/4f5542fb-419f-4913-9116-e5fd4848da1d.jpg",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\4f5542fb-419f-4913-9116-e5fd4848da1d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMORn7UOYNMf0htt5EQeKf+csRM01uklZG3hkO6MXIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 20:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMORn7UOYNMf0htt5EQeKf+csRM01uklZG3hkO6MXIY="
+        }
+      ]
+    },
+    {
+      "Route": "Images/Product/4f5542fb-419f-4913-9116-e5fd4848da1d.ok7f7y07az.jpg",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\Images\\Product\\4f5542fb-419f-4913-9116-e5fd4848da1d.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "176974"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"GMORn7UOYNMf0htt5EQeKf+csRM01uklZG3hkO6MXIY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 01 Apr 2025 20:31:43 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "ok7f7y07az"
+        },
+        {
+          "Name": "label",
+          "Value": "Images/Product/4f5542fb-419f-4913-9116-e5fd4848da1d.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-GMORn7UOYNMf0htt5EQeKf+csRM01uklZG3hkO6MXIY="
         }
       ]
     },
