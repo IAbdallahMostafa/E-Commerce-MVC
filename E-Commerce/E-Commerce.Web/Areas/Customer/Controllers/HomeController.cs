@@ -5,6 +5,7 @@ using E_Commerce.Web.ViewModels.Customer;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
 using System.Security.Claims;
+using Utilities;
 using X.PagedList.Extensions;
 
 namespace E_Commerce.Web.Areas.Customer.Controllers
@@ -63,6 +64,9 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 shoppingCart.ApplicationUserId = claim.Value;
                 _unitOfWork.ShoppingCarts.Add(shoppingCart);
+                HttpContext.Session.SetInt32(Sessions.SessionKey,
+                    _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == claim.Value).ToList().Count()
+                    );
             }
 
             _unitOfWork.Complete();

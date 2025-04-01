@@ -44,6 +44,11 @@ namespace E_Commerce.Web
             // Stripe
             builder.Services.Configure<StripeData>(builder.Configuration.GetSection("Stripe")); // Properties in clss must have the same name of keys in appsettings.json
 
+
+            // Session
+            builder.Services.AddDistributedMemoryCache();
+            builder.Services.AddSession();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -64,6 +69,9 @@ namespace E_Commerce.Web
 
 
             app.UseAuthorization();
+
+            app.UseSession();
+
             app.MapRazorPages();
 
             app.MapControllerRoute(
