@@ -5,7 +5,7 @@ namespace E_Commerce.Entities.Intefaces
 {
     public interface IOrderHeaderRepositry : IGenericRepositry<OrderHeader>
     {
-        void UpdateOrderStatus(int orderId, string orderStatus, string paymentStatus);
+        void UpdateOrderStatus(int orderId, string orderStatus, string? paymentStatus);
 
     } 
 }

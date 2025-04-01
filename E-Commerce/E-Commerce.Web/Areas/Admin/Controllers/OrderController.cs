@@ -2,6 +2,7 @@
 using E_Commerce.Web.ViewModels.Orders;
 using Microsoft.AspNetCore.Authorization;
 using Microsoft.AspNetCore.Mvc;
+using Utilities;
 
 namespace E_Commerce.Web.Areas.Admin.Controllers
 {
@@ -71,5 +72,22 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult StartProccess()
+        {
+            var orderHeader = _unitOfWork.OrderHeaders.GetOne(e => e.Id == OrderVM.OrderHeader.Id);
+
+            if (orderHeader == null)
+                return NotFound("There No Order Found");
+            
+            _unitOfWork.OrderHeaders.UpdateOrderStatus(orderHeader.Id, OrderStauts.Processing, null);
+            _unitOfWork.Complete();
+
+            TempData["StartProcessOrder"] = "Order Status Updated To Proccessing";
+            return RedirectToAction("Details", new {id = OrderVM.OrderHeader.Id});
+        }
+
+        
     }
 }

@@ -8,13 +8,14 @@ namespace E_Commerce.DataAccess.Repositries
     {
         public OrderHeaderRepositry(AppDBContext context) : base(context) { }
 
-        public void UpdateOrderStatus(int orderId, string orderStatus, string paymentStatus)
+        public void UpdateOrderStatus(int orderId, string orderStatus, string? paymentStatus)
         {
             var order = GetOne(e => e.Id ==  orderId);
             if (order != null)
             {
                 order.OrderStatus = orderStatus;
-                order.PaymentStatus = paymentStatus;
+                if (paymentStatus != null)
+                    order.PaymentStatus = paymentStatus;
             }
             
         }

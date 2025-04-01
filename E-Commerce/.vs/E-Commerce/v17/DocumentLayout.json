@@ -9,6 +9,10 @@
     {
       "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\areas\\admin\\views\\order\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\views\\shared\\_toastrpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\views\\shared\\_toastrpartialview.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -40,9 +44,10 @@
               "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
               "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
               "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Views\\Order\\Details.cshtml",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAkAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAALsAAAAAAAAAAAAAALsAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-03-31T01:27:56.45Z"
+              "WhenOpened": "2025-04-01T15:01:30.374Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -52,9 +57,22 @@
               "RelativeDocumentMoniker": "E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
               "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
               "RelativeToolTip": "E-Commerce.Web\\Areas\\Admin\\Controllers\\OrderController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAOAAAAAAAAAA==",
+              "ViewState": "AgIAAFUAAAAAAAAAAAAYwGsAAAAMAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-31T00:04:50.449Z",
+              "WhenOpened": "2025-04-01T14:55:21.696Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "_ToastrPartialView.cshtml",
+              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
+              "RelativeDocumentMoniker": "E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
+              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
+              "RelativeToolTip": "E-Commerce.Web\\Views\\Shared\\_ToastrPartialView.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAgwDAAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-04-01T13:27:19.416Z",
               "EditorCaption": ""
             }
           ]

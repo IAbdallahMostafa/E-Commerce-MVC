@@ -42,5 +42,18 @@
     <script type="text/javascript">
         toastr["success"]("@TempData["UpdateOrderDetails"]")
     </script>
+}
 
+@if (TempData["StartProcessOrder"] != null)
+{
+    <script type="text/javascript">
+        toastr["success"]("@TempData["StartProcessOrder"]")
+    </script>
+}
+
+@if (TempData["StartShipOrder"] != null)
+{
+    <script type="text/javascript">
+        toastr["success"]("@TempData["StartShipOrder"]")
+    </script>
 }
