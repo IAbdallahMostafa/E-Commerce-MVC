@@ -88,6 +88,27 @@ namespace E_Commerce.Web.Areas.Admin.Controllers
             return RedirectToAction("Details", new {id = OrderVM.OrderHeader.Id});
         }
 
-        
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        public IActionResult StartShip()
+        {
+            var orderHeader = _unitOfWork.OrderHeaders.GetOne(e => e.Id == OrderVM.OrderHeader.Id);
+
+            if (orderHeader == null)
+                return NotFound("There No Order Found");
+
+            if (string.IsNullOrEmpty(OrderVM.OrderHeader.Carrier) || string.IsNullOrEmpty(OrderVM.OrderHeader.TrackingNumber))
+                return RedirectToAction("Details", new { id = OrderVM.OrderHeader.Id });
+
+
+            _unitOfWork.OrderHeaders.UpdateOrderStatus(orderHeader.Id, OrderStauts.Shipped, null);
+            orderHeader.Carrier = OrderVM.OrderHeader.Carrier;
+            orderHeader.TrackingNumber = OrderVM.OrderHeader.TrackingNumber;
+
+            _unitOfWork.Complete();
+
+            TempData["StartShipOrder"] = "Order Status Updated To Shipping";
+            return RedirectToAction("Details", new { id = OrderVM.OrderHeader.Id });
+        }
     }
 }
