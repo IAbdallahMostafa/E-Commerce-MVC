@@ -42,12 +42,15 @@
 
                 </ul>
                 <partial name="_LoginPartial" />
-
-                <a class="btn btn-outline-dark" asp-area="Customer" asp-controller="Cart" asp-action="Index">
-                    <i class="bi-cart-fill me-1"></i>
-                    Cart
+                @if (User.Identity.IsAuthenticated)
+                {
+                    <a class="btn btn-outline-dark" asp-area="Customer" asp-controller="Cart" asp-action="Index">
+                        <i class="bi-cart-fill me-1"></i>
+                        Cart
                         @await Component.InvokeAsync("ShoppingCart")
                     </a>
+                }
+
                 </div>
         </div>
     </nav>
