@@ -1,11 +1,14 @@
 ﻿@model int
 
-<div class="container row">
-    <div class="col-12">
-        <h1>Order Confirmation</h1>
+<div class="container d-flex flex-column align-items-center justify-content-center pt-4" >
+    <div class="col-12 text-center">
+        <h1>Thank you for shopping with us.</h1>
         <br />
-        <hr />
-        <h3>Your order has been placed successfully. Your order number is @Model</h3>
-        <p>Thank you for shopping with us.</p>
+        <img src="~/img/confirm.jpg" width="400" height="400" />
+    </div>
+    <div class="col-12 text-center">
+        <br />
+        <h3>Your order has been placed successfully. <br />Your order number is <span style="color:blueviolet;">@Model</span></h3>
+        <br />
     </div>
 </div>
