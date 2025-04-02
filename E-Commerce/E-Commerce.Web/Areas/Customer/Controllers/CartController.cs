@@ -40,6 +40,9 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             var cart = _unitOfWork.ShoppingCarts.GetOne(e => e.CartId == cartId);
             _unitOfWork.ShoppingCarts.IncreaseCount(cart, 1);
             _unitOfWork.Complete();
+
+            SetSessionNumberOfCarts();
+
             return RedirectToAction("Index");
         }
 
@@ -50,6 +53,9 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 _unitOfWork.ShoppingCarts.DecreaseCount(cart, 1);
                 _unitOfWork.Complete();
+
+                SetSessionNumberOfCarts();
+                
                 return Json(new { success = true });
             }
             else
@@ -66,11 +72,20 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 _unitOfWork.ShoppingCarts.Delete(cart);
                 _unitOfWork.Complete();
+
+                SetSessionNumberOfCarts();
+
                 return Json(new { success = true });
             }
             return Json(new { success = false, message = "Item not found!" });
         }
 
+        private void SetSessionNumberOfCarts()
+        {
+            var count = _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == GetCurrentUserId()).Select(e => e.Count).Sum();
+            HttpContext.Session.SetInt32(Sessions.SessionKey, count);
+
+        }
         [HttpGet]
         public IActionResult Summary()
         {

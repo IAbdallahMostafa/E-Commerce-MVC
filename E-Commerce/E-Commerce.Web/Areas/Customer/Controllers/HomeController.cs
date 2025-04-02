@@ -64,12 +64,14 @@ namespace E_Commerce.Web.Areas.Customer.Controllers
             {
                 shoppingCart.ApplicationUserId = claim.Value;
                 _unitOfWork.ShoppingCarts.Add(shoppingCart);
-                HttpContext.Session.SetInt32(Sessions.SessionKey,
-                    _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == claim.Value).ToList().Count()
-                    );
             }
 
             _unitOfWork.Complete();
+
+            HttpContext.Session.SetInt32(Sessions.SessionKey,
+           _unitOfWork.ShoppingCarts.GetAll(e => e.ApplicationUserId == claim.Value).Select(e => e.Count).Sum()
+           );
+
             TempData["Create"] = "Item Added To Shopping Cart Successfully";
             return RedirectToAction("Index", "Home");
         }
