@@ -54,6 +54,7 @@ wwwroot\img\avatar4.png
 wwwroot\img\avatar5.png
 wwwroot\img\boxed-bg.jpg
 wwwroot\img\boxed-bg.png
+wwwroot\img\confirm.jpg
 wwwroot\img\credit\american-express.png
 wwwroot\img\credit\cirrus.png
 wwwroot\img\credit\mastercard.png
@@ -62,6 +63,7 @@ wwwroot\img\credit\paypal2.png
 wwwroot\img\credit\visa.png
 wwwroot\img\default-150x150.png
 wwwroot\img\icons.png
+wwwroot\img\login@4x.png
 wwwroot\img\photo1.png
 wwwroot\img\photo2.png
 wwwroot\img\photo3.jpg

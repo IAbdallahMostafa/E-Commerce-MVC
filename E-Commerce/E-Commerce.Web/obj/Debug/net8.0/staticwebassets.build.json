@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "yGMguRHkYfTRFAt+wsZ8DtxRYTFv/9I+XswAxozpTeU=",
+  "Hash": "sZ9VD5O2YVInanzvG6OuW/+4SO2blmA6U+Di00PXx5E=",
   "Source": "E-Commerce.Web",
   "BasePath": "_content/E-Commerce.Web",
   "Mode": "Default",
@@ -2495,6 +2495,27 @@
       "OriginalItemSpec": "wwwroot\\img\\boxed-bg.png"
     },
     {
+      "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\confirm.jpg",
+      "SourceId": "E-Commerce.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\",
+      "BasePath": "_content/E-Commerce.Web",
+      "RelativePath": "img/confirm#[.{fingerprint}]?.jpg",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "xflecgo6ct",
+      "Integrity": "DTDnhFytrbo1Mz4J1p0H5sE8NRj+sENX4T03zqxt2aU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\confirm.jpg"
+    },
+    {
       "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\credit\\american-express.png",
       "SourceId": "E-Commerce.Web",
       "SourceType": "Discovered",
@@ -2661,6 +2682,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\img\\icons.png"
+    },
+    {
+      "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\login@4x.png",
+      "SourceId": "E-Commerce.Web",
+      "SourceType": "Discovered",
+      "ContentRoot": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\",
+      "BasePath": "_content/E-Commerce.Web",
+      "RelativePath": "img/login@4x#[.{fingerprint}]?.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "g4zo645ty5",
+      "Integrity": "0K00PWw9mcpdDP6FNzoeS7uYS31gAkNTvuV5cPzyzgU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\img\\login@4x.png"
     },
     {
       "Identity": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\photo1.png",
@@ -12539,6 +12581,88 @@
       ]
     },
     {
+      "Route": "img/confirm.jpg",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\confirm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DTDnhFytrbo1Mz4J1p0H5sE8NRj+sENX4T03zqxt2aU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Dec 2023 22:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-DTDnhFytrbo1Mz4J1p0H5sE8NRj+sENX4T03zqxt2aU="
+        }
+      ]
+    },
+    {
+      "Route": "img/confirm.xflecgo6ct.jpg",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\confirm.jpg",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "157950"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/jpeg"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"DTDnhFytrbo1Mz4J1p0H5sE8NRj+sENX4T03zqxt2aU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Fri, 08 Dec 2023 22:51:07 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "xflecgo6ct"
+        },
+        {
+          "Name": "label",
+          "Value": "img/confirm.jpg"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-DTDnhFytrbo1Mz4J1p0H5sE8NRj+sENX4T03zqxt2aU="
+        }
+      ]
+    },
+    {
       "Route": "img/credit/american-express.35gyy4y31i.png",
       "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\credit\\american-express.png",
       "Selectors": [],
@@ -13191,6 +13315,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-CcvB4CLA1p9XJa00XfUGa8V0z99c2bEtggmbrXeCzvE="
+        }
+      ]
+    },
+    {
+      "Route": "img/login@4x.g4zo645ty5.png",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\login@4x.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0K00PWw9mcpdDP6FNzoeS7uYS31gAkNTvuV5cPzyzgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Dec 2023 12:46:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "g4zo645ty5"
+        },
+        {
+          "Name": "label",
+          "Value": "img/login@4x.png"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-0K00PWw9mcpdDP6FNzoeS7uYS31gAkNTvuV5cPzyzgU="
+        }
+      ]
+    },
+    {
+      "Route": "img/login@4x.png",
+      "AssetFile": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\login@4x.png",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "201478"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "image/png"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"0K00PWw9mcpdDP6FNzoeS7uYS31gAkNTvuV5cPzyzgU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 09 Dec 2023 12:46:49 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=3600, must-revalidate"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-0K00PWw9mcpdDP6FNzoeS7uYS31gAkNTvuV5cPzyzgU="
         }
       ]
     },

@@ -33,7 +33,15 @@
                         <li class="nav-item dropdown">
                             <a class="nav-link dropdown-toggle" id="navbarDropdown" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Shop</a>
                             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                                <li><a class="dropdown-item" href="#!">My Orders</a></li>
+                                @if (User.IsInRole(Roles.AdminRole))
+                                {
+                                    <li><a class="dropdown-item" asp-area="admin" asp-controller="dashboard" asp-action="index">Dashboard</a></li>
+
+                                }
+                                else if (User.IsInRole(Roles.CustomerRole))
+                                {
+                                    <li><a class="dropdown-item" href="#!">My Orders</a></li>
+                                }
                                 <li><hr class="dropdown-divider" /></li>
                                 <li><a class="dropdown-item" href="#!">Edit Profile</a></li>
                             </ul>

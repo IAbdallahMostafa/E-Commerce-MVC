@@ -233,6 +233,10 @@
       "PackagePath": "staticwebassets\\img\\boxed-bg.png"
     },
     {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\confirm.jpg",
+      "PackagePath": "staticwebassets\\img\\confirm.jpg"
+    },
+    {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\credit\\american-express.png",
       "PackagePath": "staticwebassets\\img\\credit\\american-express.png"
     },
@@ -263,6 +267,10 @@
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\icons.png",
       "PackagePath": "staticwebassets\\img\\icons.png"
+    },
+    {
+      "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\login@4x.png",
+      "PackagePath": "staticwebassets\\img\\login@4x.png"
     },
     {
       "Id": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\wwwroot\\img\\photo1.png",
