@@ -46,18 +46,18 @@
                 <a class="btn btn-outline-dark" asp-area="Customer" asp-controller="Cart" asp-action="Index">
                     <i class="bi-cart-fill me-1"></i>
                     Cart
-                    @if(User.Identity.IsAuthenticated)
-                    {
-                        @if (httpContextAccessor.HttpContext.Session.GetInt32(Sessions.SessionKey) != null)
-                        {
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">@httpContextAccessor.HttpContext.Session.GetInt32(Sessions.SessionKey)</span>
-                        }
-                        else
-                        {
-                            <span class="badge bg-dark text-white ms-1 rounded-pill">0</span>
-                        }
-                    }
-
+                    @* @if(User.Identity.IsAuthenticated) *@
+                    @* { *@
+                    @*     @if (httpContextAccessor.HttpContext.Session.GetInt32(Sessions.SessionKey) != null) *@
+                    @*     { *@
+                    @*         <span class="badge bg-dark text-white ms-1 rounded-pill">@httpContextAccessor.HttpContext.Session.GetInt32(Sessions.SessionKey)</span> *@
+                    @*     } *@
+                    @*     else *@
+                    @*     { *@
+                    @*         <span class="badge bg-dark text-white ms-1 rounded-pill">0</span> *@
+                    @*     } *@
+                    @* } *@
+                    @await Component.InvokeAsync("ShoppingCart")
                     </a>
                 </div>
         </div>

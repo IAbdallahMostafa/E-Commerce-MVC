@@ -8,5 +8,7 @@ namespace E_Commerce.Entites.Intefaces
     {
         void IncreaseCount(ShoppingCart cart, int count);
         void DecreaseCount(ShoppingCart cart, int count);
+
+        int GetProductsCount(string userId);
     }
 }

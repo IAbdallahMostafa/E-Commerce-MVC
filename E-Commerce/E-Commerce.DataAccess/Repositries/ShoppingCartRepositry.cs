@@ -17,5 +17,10 @@ namespace E_Commerce.DataAccess.Repositries
             cart.Count -= count;
         }
 
+        public int GetProductsCount(string userId)
+        {
+            return GetAll(e => e.ApplicationUserId == userId).Select(e => e.Count).Sum();
+        }
+
     }
 }
