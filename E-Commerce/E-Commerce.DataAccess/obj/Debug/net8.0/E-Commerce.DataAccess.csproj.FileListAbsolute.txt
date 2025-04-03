@@ -16,3 +16,5 @@ E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\refint\E
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\E-Commerce.DataAccess.genruntimeconfig.cache
 E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\obj\Debug\net8.0\ref\E-Commerce.DataAccess.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.Utilities.dll
+E:\ITI\E-Commerce-MVC\E-Commerce\E-Commerce.DataAccess\bin\Debug\net8.0\E-Commerce.Utilities.pdb

@@ -115,13 +115,7 @@ namespace E_Commerce.Web.Areas.Identity.Pages.Account
 
         public async Task OnGetAsync(string returnUrl = null)
         {
-            if (!_roleManager.RoleExistsAsync(Roles.AdminRole).GetAwaiter().GetResult())
-            {
-                _roleManager.CreateAsync(new IdentityRole(Roles.AdminRole)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(Roles.EditorRole)).GetAwaiter().GetResult();
-                _roleManager.CreateAsync(new IdentityRole(Roles.CustomerRole)).GetAwaiter().GetResult();
-            }
-
+            
             // load all roles to display them in admin register form 
             AllRoles = _roleManager.Roles.Select(r => r.Name).ToList();
 

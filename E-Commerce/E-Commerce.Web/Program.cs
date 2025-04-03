@@ -8,6 +8,7 @@ using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Identity.UI.Services;
 using Utilities;
 using Stripe;
+using E_Commerce.DataAccess.Database_Initializer;
 
 namespace E_Commerce.Web
 {
@@ -26,7 +27,7 @@ namespace E_Commerce.Web
             // Register DBContex
             builder.Services.AddDbContext<AppDBContext>(options => 
                              options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConstr")));
-
+            
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>
                  (options => options.Lockout.DefaultLockoutTimeSpan = TimeSpan.FromHours(1))
                 .AddEntityFrameworkStores<AppDBContext>()
@@ -49,6 +50,9 @@ namespace E_Commerce.Web
             builder.Services.AddDistributedMemoryCache();
             builder.Services.AddSession();
 
+            // Register DBInitializer
+            builder.Services.AddScoped<IDBInitializer, DBInitializer>();
+
             var app = builder.Build();
 
             // Configure the HTTP request pipeline.
@@ -67,6 +71,8 @@ namespace E_Commerce.Web
             // Stripe 
             StripeConfiguration.ApiKey = builder.Configuration.GetSection("Stripe:SecretKey").Get<string>();
 
+            // Call to dbinitializer
+            SeedDB();
 
             app.UseAuthorization();
 
@@ -82,10 +88,19 @@ namespace E_Commerce.Web
             //app.MapControllerRoute(
             //    name: "default",
             //    pattern: "{controller=Home}/{action=Index}/{id?}");
-
-            
             
             app.Run();
+
+
+            // DBInitializer
+            void SeedDB()
+            {
+                using (var scope = app.Services.CreateScope())
+                {
+                    var dbInitializer = scope.ServiceProvider.GetRequiredService<IDBInitializer>();
+                    dbInitializer.Initialize();
+                }
+            }
         }
     }
 }

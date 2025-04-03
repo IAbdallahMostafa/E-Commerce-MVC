@@ -33,10 +33,7 @@
                     <a class="nav-link" data-widget="pushmenu" href="#" role="button"><i class="fas fa-bars"></i></a>
                 </li>
                 <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Home</a>
-                </li>
-                <li class="nav-item d-none d-sm-inline-block">
-                    <a href="#" class="nav-link">Contact</a>
+                    <a asp-area="admin" asp-controller="dashboard" asp-action="index" class="nav-link">Home</a>
                 </li>
             </ul>
 
@@ -174,11 +171,11 @@
             <div class="sidebar">
                 <!-- Sidebar user (optional) -->
                 <div class="user-panel mt-3 pb-3 mb-3 d-flex">
-                    <div class="image">
-                        <img src="/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image">
-                    </div>
+                    @* <div class="image"> *@
+                    @*     <img src="/img/user2-160x160.jpg" class="img-circle elevation-2" alt="User Image"> *@
+                    @* </div> *@
                     <div class="info">
-                        <a href="#" class="d-block">User name</a>
+                        <a href="#" class="d-block">@User.Identity.Name</a>
                     </div>
                 </div>
 
@@ -199,6 +196,14 @@
                     <ul class="nav nav-pills nav-sidebar flex-column" data-widget="treeview" role="menu" data-accordion="false">
                         <!-- Add icons to the links using the .nav-icon class
                              with font-awesome or any other icon font library -->
+                        <li class="nav-item">
+                            <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="nav-link">
+                                <i class="nav-icon fas fa-tachometer-alt"></i>
+                                <p>
+                                    Orders
+                                </p>
+                            </a>
+                        </li>
                         <li class="nav-item">
                             <a asp-area="Admin" asp-controller="Users" asp-action="Index" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
@@ -224,19 +229,10 @@
                             </a>
                         </li>
                         <li class="nav-item">
-                            <a asp-area="Admin" asp-controller="Order" asp-action="Index" class="nav-link">
-                                <i class="nav-icon fas fa-tachometer-alt"></i>
-                                <p>
-                                    Orders
-                                </p>
-                            </a>
-                        </li>
-
-                        <li class="nav-item">
                             <a asp-area="Customer" asp-controller="Home" asp-action="Index" class="nav-link">
                                 <i class="nav-icon fas fa-tachometer-alt"></i>
                                 <p>
-                                    Customers View
+                                    Home Page
                                 </p>
                             </a>
                         </li>

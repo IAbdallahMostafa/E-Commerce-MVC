@@ -34,6 +34,9 @@
             "projectReferences": {
               "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj": {
                 "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj"
+              },
+              "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj": {
+                "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj"
               }
             }
           }

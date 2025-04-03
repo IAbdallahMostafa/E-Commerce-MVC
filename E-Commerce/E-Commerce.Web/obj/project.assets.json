@@ -3919,6 +3919,7 @@
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
           "E-Commerce.Entities": "1.0.0",
+          "E-Commerce.Utilities": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.13",
           "Microsoft.EntityFrameworkCore.SqlServer": "9.0.2",
           "Microsoft.Extensions.Configuration.Json": "9.0.2"
