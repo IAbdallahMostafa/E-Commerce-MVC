@@ -41,6 +41,8 @@ E-Commerce/
 - Bootstrap 5
 - AutoMapper
 - Repository & Unit of Work pattern
+- HTML & CSS
+- JavaScript 
 
 ---
 
