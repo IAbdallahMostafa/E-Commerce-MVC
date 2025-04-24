@@ -117,4 +117,4 @@ This project is open-source and available under the [MIT License](LICENSE).
 ## ✨ Author
 
 **Abdallah Mostafa**  
-[GitHub](https://github.com/IAbdallahMostafa) | [LinkedIn](https://www.linkedin.com/in/Iabdallahmostafa/)
+[GitHub](https://github.com/IAbdallahMostafa) | [LinkedIn](https://www.linkedin.com/in/Iabdallah-mostafa/)
