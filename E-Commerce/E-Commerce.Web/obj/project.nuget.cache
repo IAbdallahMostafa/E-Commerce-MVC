@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "zfaPxL+qRsE=",
+  "dgSpecHash": "sAwKogRf1nI=",
   "success": true,
-  "projectFilePath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\E-Commerce.Web.csproj",
+  "projectFilePath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\E-Commerce.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\User\\.nuget\\packages\\automapper\\14.0.0\\automapper.14.0.0.nupkg.sha512",
     "C:\\Users\\User\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",

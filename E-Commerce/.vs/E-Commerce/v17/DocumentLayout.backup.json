@@ -1,16 +1,7 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.dataaccess\\database initializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{95F10D2C-C3C4-4FD7-B092-5AD2E97A96B7}|E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj|solutionrelative:e-commerce.dataaccess\\database initializer\\dbinitializer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|e:\\iti\\e-commerce-mvc\\e-commerce\\e-commerce.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{1D54979D-4EB7-4A9D-8B7F-CDCEE0CC7353}|E-Commerce.Web\\E-Commerce.Web.csproj|solutionrelative:e-commerce.web\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
@@ -18,7 +9,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": -1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -33,30 +24,12 @@
               "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "DBInitializer.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Database Initializer\\DBInitializer.cs",
-              "RelativeDocumentMoniker": "E-Commerce.DataAccess\\Database Initializer\\DBInitializer.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\Database Initializer\\DBInitializer.cs",
-              "RelativeToolTip": "E-Commerce.DataAccess\\Database Initializer\\DBInitializer.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAAADIAAAAcAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T22:04:19.22Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{40ea2e6b-2121-4bb8-a43e-c83c04b51041}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Program.cs",
-              "RelativeDocumentMoniker": "E-Commerce.Web\\Program.cs",
-              "ToolTip": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\Program.cs",
-              "RelativeToolTip": "E-Commerce.Web\\Program.cs",
-              "ViewState": "AgIAACgAAAAAAAAAAAAQwDUAAABFAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-03T21:57:26.985Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
             }
           ]
         }

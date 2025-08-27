@@ -6849,11 +6849,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj",
       "projectName": "E-Commerce.DataAccess",
-      "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -6874,11 +6874,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj": {
-              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj"
+            "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj"
             },
-            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj": {
-              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj"
+            "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj"
             }
           }
         }

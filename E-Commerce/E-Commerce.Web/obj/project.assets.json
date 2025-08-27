@@ -10184,11 +10184,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\E-Commerce.Web.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\E-Commerce.Web.csproj",
       "projectName": "E-Commerce.Web",
-      "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\E-Commerce.Web.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\E-Commerce.Web.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -10209,11 +10209,11 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj": {
-              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj"
+            "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.DataAccess\\E-Commerce.DataAccess.csproj"
             },
-            "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj": {
-              "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj"
+            "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj": {
+              "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\Utilities\\E-Commerce.Utilities.csproj"
             }
           }
         }

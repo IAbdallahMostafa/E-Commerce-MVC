@@ -4655,11 +4655,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj",
+      "projectUniqueName": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj",
       "projectName": "E-Commerce.Entities",
-      "projectPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj",
+      "projectPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\E-Commerce.Entities.csproj",
       "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "E:\\ITI\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\obj\\",
+      "outputPath": "C:\\Users\\User\\Desktop\\E-Commerce-MVC\\E-Commerce\\E-Commerce.Entites\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

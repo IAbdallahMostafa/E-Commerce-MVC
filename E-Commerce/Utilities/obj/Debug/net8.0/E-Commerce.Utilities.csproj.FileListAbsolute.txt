@@ -11,3 +11,16 @@ E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\refint\E-Commerce.Utilities.dll
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.pdb
 E:\ITI\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\ref\E-Commerce.Utilities.dll
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\bin\Debug\net8.0\E-Commerce.Utilities.deps.json
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\bin\Debug\net8.0\E-Commerce.Utilities.dll
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\bin\Debug\net8.0\E-Commerce.Utilities.pdb
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.csproj.AssemblyReference.cache
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.AssemblyInfoInputs.cache
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.AssemblyInfo.cs
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.csproj.CoreCompileInputs.cache
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.sourcelink.json
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.dll
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\refint\E-Commerce.Utilities.dll
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\E-Commerce.Utilities.pdb
+C:\Users\User\Desktop\E-Commerce-MVC\E-Commerce\Utilities\obj\Debug\net8.0\ref\E-Commerce.Utilities.dll
